@@ -1,0 +1,701 @@
+02/06/2024, 08:00 - Messages and calls are end-to-end encrypted.
+03/06/2024, 20:17 - Priya: lets sync at 4 😅
+03/06/2024, 20:20 - Rohit: the metrics look off 😅
+03/06/2024, 20:24 - Sana: that worked, thanks 😂
+03/06/2024, 20:25 - Priya: running 10 min late 🎉
+04/06/2024, 12:03 - Dev: haha true
+04/06/2024, 12:09 - Priya: no idea honestly 🙏
+04/06/2024, 12:16 - Priya: running 10 min late 😂
+04/06/2024, 12:21 - Rohit: lets park it for now 😂
+05/06/2024, 14:09 - Priya: sticker omitted
+05/06/2024, 14:15 - Rohit: the build is red again
+05/06/2024, 14:20 - Dev: shipping the release now
+05/06/2024, 14:27 - Dev: ok sounds good 😅
+06/06/2024, 20:35 - Dev: kal milte hai 😂
+06/06/2024, 20:36 - Sana: kal milte hai 😅
+07/06/2024, 22:10 - Sana: no idea honestly 😂
+07/06/2024, 22:11 - Sana: running 10 min late
+07/06/2024, 22:18 - Priya: no idea honestly 🎉
+07/06/2024, 22:20 - Rohit: sending the doc 🙏
+07/06/2024, 22:23 - Priya: the metrics look off 😂
+11/06/2024, 22:11 - Rohit: no idea honestly 👍
+11/06/2024, 22:14 - Rohit: haha true 👍
+11/06/2024, 22:15 - Dev: no idea honestly
+11/06/2024, 22:23 - Sana: see https://docs.example.com/spec/v2 👍
+12/06/2024, 22:05 - Priya: ok sounds good
+12/06/2024, 22:11 - Sana: shipping the release now 😂
+12/06/2024, 22:14 - Dev: lets sync at 4
+12/06/2024, 22:19 - Dev: no idea honestly
+13/06/2024, 22:05 - Rohit: lets sync at 4
+13/06/2024, 22:08 - Sana: deadline moved to friday
+13/06/2024, 22:15 - Sana: the metrics look off 👍
+13/06/2024, 22:18 - Rohit: sending the doc 👍
+13/06/2024, 22:23 - Rohit: lets park it for now 🎉
+13/06/2024, 22:28 - Rohit: deadline moved to friday
+13/06/2024, 22:31 - Rohit: the build is red again 🙏
+14/06/2024, 22:11 - Rohit: sending the doc 🙏
+14/06/2024, 22:19 - Sana: can you review the PR when free 😅
+14/06/2024, 22:21 - Sana: no idea honestly 🎉
+14/06/2024, 22:25 - Priya: can you review the PR when free 🎉
+14/06/2024, 22:33 - Sana: good catch 👍
+15/06/2024, 14:26 - Rohit: that worked, thanks 😂
+15/06/2024, 14:30 - Priya: done and merged
+15/06/2024, 14:34 - Sana: running 10 min late 😅
+15/06/2024, 14:37 - Dev: lets sync at 4 😅
+16/06/2024, 21:20 - Priya: shipping the release now 🎉
+16/06/2024, 21:29 - Priya: running 10 min late 👍
+16/06/2024, 21:37 - Sana: <Media omitted>
+17/06/2024, 21:26 - Priya: on my way
+17/06/2024, 21:28 - Rohit: the metrics look off
+17/06/2024, 21:30 - Rohit: that worked, thanks
+17/06/2024, 21:38 - Rohit: can you review the PR when free 😅
+17/06/2024, 21:47 - Rohit: the metrics look off 🎉
+18/06/2024, 20:31 - Priya: on my way
+18/06/2024, 20:39 - Dev: see https://docs.example.com/spec/v2 🙏
+18/06/2024, 20:42 - Priya: no idea honestly 😅
+18/06/2024, 20:46 - Rohit: <Media omitted>
+18/06/2024, 20:48 - Rohit: running 10 min late
+18/06/2024, 20:57 - Sana: yes please 😅
+18/06/2024, 21:00 - Sana: ok sounds good 😅
+18/06/2024, 21:04 - Priya: that worked, thanks 😂
+18/06/2024, 21:10 - Dev: yes please 🙏
+19/06/2024, 13:19 - Dev: ok sounds good 😂
+19/06/2024, 13:26 - Priya: kal milte hai 🎉
+19/06/2024, 13:32 - Dev: see https://docs.example.com/spec/v2 😅
+19/06/2024, 13:39 - Priya: <Media omitted>
+19/06/2024, 13:45 - Sana: lets park it for now 😂
+20/06/2024, 21:09 - Sana: sticker omitted
+20/06/2024, 21:13 - Priya: can you review the PR when free 😅
+21/06/2024, 14:27 - Priya: kya scene hai
+21/06/2024, 14:28 - Dev: see https://docs.example.com/spec/v2
+21/06/2024, 14:36 - Priya: ok sounds good 🙏
+21/06/2024, 14:42 - Dev: no idea honestly 😂
+21/06/2024, 14:48 - Dev: the build is red again 😂
+21/06/2024, 14:57 - Rohit: deadline moved to friday
+21/06/2024, 15:05 - Sana: on my way
+21/06/2024, 15:10 - Sana: sending the doc 🎉
+22/06/2024, 22:21 - Sana: on my way 👍
+22/06/2024, 22:29 - Rohit: see https://docs.example.com/spec/v2 👍
+22/06/2024, 22:37 - Priya: shipping the release now 🎉
+23/06/2024, 22:15 - Dev: no idea honestly
+23/06/2024, 22:16 - Priya: kal milte hai 🙏
+23/06/2024, 22:20 - Rohit: the metrics look off
+24/06/2024, 13:31 - Dev: ok sounds good
+24/06/2024, 13:36 - Priya: sending the doc 😂
+24/06/2024, 13:41 - Rohit: can you review the PR when free 🎉
+25/06/2024, 22:13 - Dev: ok sounds good 👍
+25/06/2024, 22:18 - Priya: kal milte hai 🙏
+25/06/2024, 22:25 - Sana: on my way 👍
+25/06/2024, 22:28 - Dev: lets sync at 4 😅
+25/06/2024, 22:33 - Rohit: lets sync at 4 🙏
+25/06/2024, 22:36 - Rohit: kal milte hai 😅
+25/06/2024, 22:42 - Rohit: haha true 🙏
+25/06/2024, 22:45 - Sana: image omitted
+26/06/2024, 20:03 - Priya: no idea honestly
+26/06/2024, 20:11 - Sana: done and merged 😂
+26/06/2024, 20:19 - Sana: running 10 min late 😅
+26/06/2024, 20:23 - Rohit: lets sync at 4 🙏
+26/06/2024, 20:29 - Dev: haha true
+26/06/2024, 20:32 - Sana: kal milte hai 😂
+28/06/2024, 21:31 - Priya: on my way 🎉
+28/06/2024, 21:36 - Dev: good catch 😂
+28/06/2024, 21:41 - Rohit: can you review the PR when free
+28/06/2024, 21:42 - Sana: good catch 🎉
+28/06/2024, 21:51 - Rohit: see https://docs.example.com/spec/v2 🙏
+28/06/2024, 21:57 - Dev: sending the doc 👍
+28/06/2024, 22:06 - Dev: can you review the PR when free 😂
+28/06/2024, 22:09 - Priya: running 10 min late 🙏
+28/06/2024, 22:15 - Sana: kya scene hai
+29/06/2024, 09:23 - Sana: sending the doc 😅
+29/06/2024, 09:27 - Priya: good catch
+29/06/2024, 09:30 - Dev: lets park it for now
+30/06/2024, 20:06 - Sana: the build is red again
+30/06/2024, 20:09 - Rohit: on my way 😂
+30/06/2024, 20:14 - Priya: can you review the PR when free 🙏
+30/06/2024, 20:21 - Priya: see https://docs.example.com/spec/v2 🙏
+30/06/2024, 20:29 - Priya: that worked, thanks 😂
+01/07/2024, 20:22 - Rohit: yes please 😅
+01/07/2024, 20:29 - Dev: can you review the PR when free
+01/07/2024, 20:35 - Sana: shipping the release now 👍
+02/07/2024, 21:17 - Priya: lets park it for now 🎉
+02/07/2024, 21:23 - Sana: that worked, thanks 🎉
+02/07/2024, 21:27 - Priya: good catch 👍
+02/07/2024, 21:29 - Dev: see https://docs.example.com/spec/v2 👍
+02/07/2024, 21:31 - Sana: ok sounds good 🙏
+02/07/2024, 21:33 - Dev: yes please
+02/07/2024, 21:37 - Dev: can you review the PR when free 😅
+02/07/2024, 21:39 - Sana: running 10 min late 🙏
+03/07/2024, 20:11 - Dev: ok sounds good 🙏
+03/07/2024, 20:13 - Dev: that worked, thanks 😅
+03/07/2024, 20:16 - Sana: kya scene hai 👍
+04/07/2024, 10:17 - Sana: running 10 min late
+04/07/2024, 10:24 - Priya: shipping the release now 😅
+05/07/2024, 09:23 - Priya: sticker omitted
+05/07/2024, 09:28 - Sana: <Media omitted>
+05/07/2024, 09:35 - Priya: that worked, thanks 😅
+05/07/2024, 09:39 - Dev: kya scene hai 😅
+05/07/2024, 09:44 - Priya: done and merged
+05/07/2024, 09:52 - Priya: haha true
+05/07/2024, 09:55 - Dev: no idea honestly
+10/07/2024, 14:12 - Sana: running 10 min late 👍
+10/07/2024, 14:17 - Sana: done and merged 👍
+10/07/2024, 14:18 - Rohit: can you review the PR when free 👍
+10/07/2024, 14:24 - Rohit: no idea honestly 👍
+10/07/2024, 14:27 - Priya: on my way 🙏
+10/07/2024, 14:31 - Rohit: running 10 min late 😂
+10/07/2024, 14:34 - Rohit: on my way 🙏
+10/07/2024, 14:37 - Sana: good catch
+11/07/2024, 11:32 - Dev: lets sync at 4 🎉
+11/07/2024, 11:34 - Priya: kya scene hai 😅
+12/07/2024, 22:06 - Sana: yes please 🎉
+12/07/2024, 22:15 - Sana: yes please 👍
+12/07/2024, 22:20 - Sana: <Media omitted>
+12/07/2024, 22:25 - Rohit: on my way 😅
+13/07/2024, 21:24 - Sana: that worked, thanks
+13/07/2024, 21:27 - Dev: on my way 👍
+13/07/2024, 21:30 - Rohit: ok sounds good 😅
+13/07/2024, 21:37 - Dev: lets sync at 4
+17/07/2024, 21:22 - Priya: can you review the PR when free 🙏
+17/07/2024, 21:31 - Sana: the metrics look off 😅
+17/07/2024, 21:40 - Priya: the build is red again 🙏
+17/07/2024, 21:45 - Rohit: no idea honestly 🙏
+17/07/2024, 21:51 - Sana: sending the doc 😂
+17/07/2024, 21:53 - Dev: ok sounds good
+17/07/2024, 21:56 - Rohit: image omitted
+18/07/2024, 13:04 - Dev: running 10 min late 😂
+18/07/2024, 13:07 - Rohit: see https://docs.example.com/spec/v2 🙏
+18/07/2024, 13:11 - Dev: see https://docs.example.com/spec/v2 👍
+18/07/2024, 13:17 - Dev: kal milte hai 🙏
+21/07/2024, 16:18 - Rohit: running 10 min late
+21/07/2024, 16:25 - Dev: done and merged 👍
+21/07/2024, 16:30 - Dev: haha true 👍
+21/07/2024, 16:32 - Dev: done and merged 😂
+21/07/2024, 16:37 - Dev: see https://docs.example.com/spec/v2 😅
+21/07/2024, 16:46 - Rohit: kya scene hai 🙏
+21/07/2024, 16:52 - Sana: the build is red again
+21/07/2024, 16:53 - Sana: good catch 😅
+22/07/2024, 13:27 - Dev: no idea honestly 🙏
+22/07/2024, 13:34 - Priya: running 10 min late 😅
+22/07/2024, 13:35 - Dev: no idea honestly 🙏
+22/07/2024, 13:40 - Dev: deadline moved to friday 😅
+23/07/2024, 21:03 - Dev: on my way 🙏
+23/07/2024, 21:12 - Dev: see https://docs.example.com/spec/v2 👍
+23/07/2024, 21:17 - Dev: deadline moved to friday 🎉
+23/07/2024, 21:19 - Rohit: the build is red again 😂
+23/07/2024, 21:28 - Dev: shipping the release now 🎉
+23/07/2024, 21:33 - Rohit: good catch
+24/07/2024, 20:17 - Dev: haha true 😂
+24/07/2024, 20:25 - Priya: that worked, thanks 🙏
+24/07/2024, 20:29 - Dev: can you review the PR when free 😂
+24/07/2024, 20:31 - Dev: deadline moved to friday 🎉
+24/07/2024, 20:36 - Priya: on my way 😂
+24/07/2024, 20:45 - Priya: that worked, thanks 🙏
+24/07/2024, 20:46 - Rohit: shipping the release now
+28/07/2024, 22:31 - Dev: no idea honestly 👍
+28/07/2024, 22:33 - Dev: lets park it for now 😂
+28/07/2024, 22:40 - Rohit: <Media omitted>
+28/07/2024, 22:43 - Sana: done and merged 🙏
+28/07/2024, 22:46 - Priya: done and merged 😂
+28/07/2024, 22:51 - Dev: good catch 👍
+28/07/2024, 22:58 - Rohit: the build is red again 😅
+28/07/2024, 23:02 - Priya: on my way 😅
+28/07/2024, 23:05 - Dev: deadline moved to friday 🎉
+29/07/2024, 20:30 - Dev: running 10 min late
+29/07/2024, 20:37 - Sana: ok sounds good
+29/07/2024, 20:45 - Rohit: shipping the release now 🙏
+29/07/2024, 20:54 - Dev: <Media omitted>
+29/07/2024, 20:58 - Dev: sending the doc 🎉
+29/07/2024, 21:07 - Sana: no idea honestly
+29/07/2024, 21:09 - Priya: haha true 😅
+30/07/2024, 21:11 - Priya: can you review the PR when free 🙏
+30/07/2024, 21:12 - Rohit: deadline moved to friday 🎉
+30/07/2024, 21:19 - Dev: the build is red again 😅
+30/07/2024, 21:22 - Dev: done and merged 😂
+31/07/2024, 22:02 - Priya: shipping the release now 👍
+31/07/2024, 22:07 - Dev: lets sync at 4 👍
+31/07/2024, 22:10 - Rohit: lets park it for now 😅
+31/07/2024, 22:11 - Rohit: sticker omitted
+31/07/2024, 22:16 - Rohit: kya scene hai
+31/07/2024, 22:23 - Sana: good catch
+31/07/2024, 22:27 - Sana: lets park it for now
+01/08/2024, 11:36 - Rohit: image omitted
+01/08/2024, 11:43 - Sana: sticker omitted
+01/08/2024, 11:50 - Sana: done and merged
+01/08/2024, 11:59 - Dev: on my way
+02/08/2024, 15:31 - Priya: on my way 👍
+02/08/2024, 15:36 - Priya: kal milte hai
+02/08/2024, 15:44 - Rohit: kal milte hai 😅
+02/08/2024, 15:47 - Rohit: kal milte hai 😂
+02/08/2024, 15:55 - Dev: lets park it for now 🙏
+02/08/2024, 15:59 - Sana: the metrics look off 😅
+02/08/2024, 16:00 - Dev: good catch 👍
+02/08/2024, 16:07 - Rohit: the metrics look off
+03/08/2024, 10:05 - Rohit: sending the doc
+03/08/2024, 10:09 - Priya: that worked, thanks 😅
+03/08/2024, 10:15 - Priya: the metrics look off 🙏
+03/08/2024, 10:16 - Sana: on my way 🙏
+04/08/2024, 20:34 - Priya: yes please 🎉
+04/08/2024, 20:37 - Dev: on my way 😂
+04/08/2024, 20:44 - Priya: haha true 😂
+04/08/2024, 20:48 - Sana: running 10 min late 👍
+04/08/2024, 20:50 - Priya: no idea honestly
+04/08/2024, 20:52 - Priya: lets park it for now 😅
+04/08/2024, 21:01 - Sana: yes please 😅
+04/08/2024, 21:10 - Dev: <Media omitted>
+04/08/2024, 21:18 - Sana: can you review the PR when free 🙏
+05/08/2024, 20:28 - Rohit: see https://docs.example.com/spec/v2 😅
+05/08/2024, 20:34 - Priya: lets park it for now
+05/08/2024, 20:37 - Dev: can you review the PR when free 🎉
+05/08/2024, 20:44 - Rohit: can you review the PR when free 😅
+05/08/2024, 20:45 - Priya: sending the doc
+05/08/2024, 20:48 - Dev: deadline moved to friday 😂
+06/08/2024, 09:18 - Sana: no idea honestly 🙏
+06/08/2024, 09:25 - Sana: lets sync at 4 🎉
+06/08/2024, 09:31 - Sana: see https://docs.example.com/spec/v2
+07/08/2024, 14:00 - Dev: the build is red again 😂
+07/08/2024, 14:03 - Priya: kal milte hai 👍
+07/08/2024, 14:09 - Rohit: lets sync at 4
+07/08/2024, 14:16 - Sana: kya scene hai 🙏
+07/08/2024, 14:22 - Sana: deadline moved to friday 🙏
+07/08/2024, 14:25 - Dev: kal milte hai 😂
+08/08/2024, 21:16 - Priya: see https://docs.example.com/spec/v2 😅
+08/08/2024, 21:20 - Priya: shipping the release now
+08/08/2024, 21:24 - Dev: lets park it for now 😂
+08/08/2024, 21:31 - Sana: lets park it for now 🎉
+08/08/2024, 21:37 - Dev: no idea honestly 🙏
+08/08/2024, 21:45 - Dev: kya scene hai 🙏
+09/08/2024, 22:10 - Dev: yes please 😂
+09/08/2024, 22:13 - Sana: yes please 😂
+09/08/2024, 22:16 - Priya: no idea honestly
+09/08/2024, 22:18 - Dev: yes please
+10/08/2024, 22:37 - Sana: good catch
+10/08/2024, 22:41 - Dev: can you review the PR when free 😅
+10/08/2024, 22:44 - Sana: ok sounds good 🎉
+10/08/2024, 22:48 - Rohit: haha true
+11/08/2024, 20:25 - Priya: yes please 🎉
+11/08/2024, 20:31 - Rohit: ok sounds good 🙏
+11/08/2024, 20:40 - Sana: deadline moved to friday 🎉
+11/08/2024, 20:44 - Rohit: kya scene hai
+11/08/2024, 20:53 - Sana: ok sounds good 😅
+11/08/2024, 21:00 - Rohit: no idea honestly 👍
+11/08/2024, 21:07 - Priya: shipping the release now 😂
+12/08/2024, 21:05 - Rohit: can you review the PR when free
+12/08/2024, 21:13 - Dev: sending the doc
+12/08/2024, 21:20 - Priya: on my way 👍
+12/08/2024, 21:23 - Priya: kal milte hai
+13/08/2024, 20:30 - Dev: yes please 🙏
+13/08/2024, 20:33 - Priya: can you review the PR when free 😅
+13/08/2024, 20:38 - Rohit: that worked, thanks 👍
+13/08/2024, 20:46 - Priya: kal milte hai 👍
+13/08/2024, 20:49 - Rohit: ok sounds good
+16/08/2024, 14:33 - Sana: sending the doc
+16/08/2024, 14:41 - Dev: the build is red again
+16/08/2024, 14:45 - Priya: ok sounds good
+16/08/2024, 14:51 - Dev: image omitted
+16/08/2024, 14:54 - Priya: shipping the release now 😅
+19/08/2024, 15:26 - Rohit: the metrics look off
+19/08/2024, 15:33 - Dev: lets park it for now 🙏
+23/08/2024, 10:14 - Priya: lets sync at 4 😂
+23/08/2024, 10:21 - Sana: lets sync at 4
+23/08/2024, 10:25 - Sana: on my way 👍
+23/08/2024, 10:27 - Rohit: the build is red again
+23/08/2024, 10:33 - Sana: can you review the PR when free 😅
+23/08/2024, 10:37 - Sana: can you review the PR when free 😅
+26/08/2024, 09:21 - Dev: done and merged 👍
+26/08/2024, 09:25 - Dev: can you review the PR when free
+26/08/2024, 09:32 - Rohit: deadline moved to friday 😂
+26/08/2024, 09:33 - Sana: shipping the release now
+26/08/2024, 09:37 - Rohit: good catch 👍
+26/08/2024, 09:45 - Dev: haha true
+26/08/2024, 09:48 - Priya: the metrics look off 😂
+27/08/2024, 20:27 - Rohit: running 10 min late 😅
+27/08/2024, 20:29 - Dev: yes please 😂
+27/08/2024, 20:32 - Rohit: shipping the release now 👍
+27/08/2024, 20:40 - Rohit: no idea honestly 🙏
+27/08/2024, 20:45 - Rohit: sending the doc 🎉
+27/08/2024, 20:49 - Rohit: lets park it for now 👍
+27/08/2024, 20:57 - Dev: that worked, thanks
+27/08/2024, 21:05 - Priya: good catch 😂
+27/08/2024, 21:09 - Sana: haha true 😂
+28/08/2024, 21:19 - Sana: sending the doc 🎉
+28/08/2024, 21:25 - Dev: ok sounds good
+28/08/2024, 21:29 - Dev: sending the doc 🎉
+28/08/2024, 21:38 - Rohit: no idea honestly 🙏
+28/08/2024, 21:42 - Sana: sticker omitted
+28/08/2024, 21:43 - Rohit: that worked, thanks 😅
+29/08/2024, 20:35 - Rohit: yes please
+29/08/2024, 20:38 - Rohit: sticker omitted
+29/08/2024, 20:44 - Dev: good catch
+29/08/2024, 20:48 - Sana: that worked, thanks
+29/08/2024, 20:50 - Sana: haha true 🙏
+29/08/2024, 20:53 - Sana: see https://docs.example.com/spec/v2
+29/08/2024, 21:00 - Dev: shipping the release now 🙏
+29/08/2024, 21:08 - Dev: lets park it for now
+30/08/2024, 14:36 - Priya: no idea honestly 🙏
+30/08/2024, 14:44 - Priya: on my way 🙏
+31/08/2024, 21:38 - Priya: yes please 😂
+31/08/2024, 21:43 - Rohit: kya scene hai 😅
+31/08/2024, 21:48 - Priya: kya scene hai
+31/08/2024, 21:56 - Priya: shipping the release now 😂
+01/09/2024, 22:09 - Dev: the metrics look off 😂
+01/09/2024, 22:10 - Priya: deadline moved to friday 😅
+01/09/2024, 22:18 - Priya: see https://docs.example.com/spec/v2
+01/09/2024, 22:25 - Sana: the metrics look off 😂
+01/09/2024, 22:27 - Sana: shipping the release now 😂
+01/09/2024, 22:34 - Dev: deadline moved to friday
+02/09/2024, 10:13 - Priya: the metrics look off 😅
+02/09/2024, 10:21 - Sana: see https://docs.example.com/spec/v2 😂
+02/09/2024, 10:27 - Priya: lets sync at 4
+04/09/2024, 22:09 - Dev: that worked, thanks 😂
+04/09/2024, 22:14 - Priya: kal milte hai 😂
+04/09/2024, 22:15 - Rohit: the build is red again 🙏
+04/09/2024, 22:22 - Dev: the metrics look off
+04/09/2024, 22:28 - Priya: lets sync at 4 🎉
+04/09/2024, 22:36 - Rohit: sending the doc 🎉
+04/09/2024, 22:44 - Dev: can you review the PR when free 👍
+05/09/2024, 21:04 - Dev: can you review the PR when free 😅
+05/09/2024, 21:06 - Rohit: sending the doc
+05/09/2024, 21:12 - Sana: that worked, thanks 🎉
+05/09/2024, 21:13 - Sana: done and merged
+05/09/2024, 21:15 - Rohit: ok sounds good 🎉
+05/09/2024, 21:22 - Priya: see https://docs.example.com/spec/v2
+05/09/2024, 21:27 - Rohit: the build is red again 😅
+06/09/2024, 12:10 - Priya: shipping the release now 🙏
+06/09/2024, 12:14 - Priya: haha true 😂
+06/09/2024, 12:22 - Sana: on my way 🎉
+06/09/2024, 12:26 - Dev: done and merged
+06/09/2024, 12:28 - Priya: yes please 🙏
+06/09/2024, 12:32 - Rohit: kal milte hai 😂
+06/09/2024, 12:40 - Sana: running 10 min late 😂
+06/09/2024, 12:44 - Dev: yes please 😂
+06/09/2024, 12:50 - Dev: done and merged
+07/09/2024, 20:00 - Priya: that worked, thanks 👍
+07/09/2024, 20:08 - Priya: sending the doc 🎉
+07/09/2024, 20:16 - Priya: done and merged
+07/09/2024, 20:20 - Priya: kya scene hai 😅
+07/09/2024, 20:23 - Sana: see https://docs.example.com/spec/v2
+07/09/2024, 20:28 - Rohit: yes please 👍
+12/09/2024, 22:07 - Sana: the metrics look off
+12/09/2024, 22:10 - Priya: see https://docs.example.com/spec/v2 🙏
+12/09/2024, 22:14 - Sana: done and merged 😂
+13/09/2024, 21:00 - Sana: deadline moved to friday 🙏
+13/09/2024, 21:07 - Sana: lets sync at 4 😅
+13/09/2024, 21:10 - Priya: on my way 🎉
+13/09/2024, 21:14 - Priya: the build is red again
+13/09/2024, 21:17 - Dev: ok sounds good 😂
+13/09/2024, 21:24 - Sana: on my way
+13/09/2024, 21:31 - Dev: no idea honestly 😂
+14/09/2024, 22:11 - Priya: shipping the release now 🎉
+14/09/2024, 22:18 - Rohit: good catch
+14/09/2024, 22:26 - Sana: ok sounds good 👍
+14/09/2024, 22:28 - Sana: see https://docs.example.com/spec/v2 👍
+14/09/2024, 22:31 - Sana: the build is red again 🎉
+14/09/2024, 22:34 - Sana: that worked, thanks 🙏
+15/09/2024, 22:19 - Dev: deadline moved to friday 🎉
+15/09/2024, 22:24 - Rohit: see https://docs.example.com/spec/v2 🎉
+15/09/2024, 22:31 - Priya: kal milte hai 😂
+15/09/2024, 22:38 - Sana: the build is red again
+15/09/2024, 22:41 - Rohit: done and merged 🎉
+15/09/2024, 22:47 - Sana: running 10 min late 😂
+15/09/2024, 22:50 - Sana: good catch 🙏
+15/09/2024, 22:58 - Dev: no idea honestly 😅
+16/09/2024, 14:15 - Dev: kya scene hai 😂
+16/09/2024, 14:17 - Priya: sending the doc
+17/09/2024, 11:22 - Dev: see https://docs.example.com/spec/v2
+17/09/2024, 11:29 - Dev: on my way 🎉
+18/09/2024, 21:20 - Sana: running 10 min late
+18/09/2024, 21:25 - Sana: the metrics look off
+19/09/2024, 20:09 - Sana: haha true 😅
+19/09/2024, 20:17 - Dev: that worked, thanks 🙏
+19/09/2024, 20:19 - Dev: that worked, thanks 🎉
+19/09/2024, 20:25 - Sana: ok sounds good 🙏
+19/09/2024, 20:33 - Rohit: good catch 😅
+19/09/2024, 20:38 - Dev: no idea honestly 🎉
+19/09/2024, 20:42 - Dev: the build is red again
+19/09/2024, 20:48 - Dev: sending the doc 🙏
+20/09/2024, 20:02 - Rohit: sticker omitted
+20/09/2024, 20:04 - Rohit: no idea honestly 👍
+20/09/2024, 20:10 - Dev: done and merged 😅
+21/09/2024, 09:21 - Priya: shipping the release now 😂
+21/09/2024, 09:24 - Rohit: lets park it for now
+21/09/2024, 09:32 - Dev: done and merged
+21/09/2024, 09:37 - Sana: ok sounds good 😂
+21/09/2024, 09:46 - Dev: kal milte hai
+21/09/2024, 09:49 - Sana: that worked, thanks
+21/09/2024, 09:56 - Dev: kya scene hai 🎉
+26/09/2024, 21:18 - Sana: see https://docs.example.com/spec/v2 😅
+26/09/2024, 21:26 - Rohit: on my way 🙏
+26/09/2024, 21:33 - Rohit: done and merged
+26/09/2024, 21:40 - Dev: sending the doc 🎉
+26/09/2024, 21:46 - Rohit: image omitted
+26/09/2024, 21:53 - Rohit: on my way 😅
+26/09/2024, 21:58 - Rohit: lets sync at 4 😂
+27/09/2024, 16:22 - Sana: image omitted
+27/09/2024, 16:24 - Rohit: lets sync at 4
+27/09/2024, 16:26 - Priya: can you review the PR when free 😅
+27/09/2024, 16:28 - Priya: sticker omitted
+27/09/2024, 16:31 - Rohit: ok sounds good 👍
+27/09/2024, 16:39 - Rohit: the build is red again
+28/09/2024, 12:18 - Rohit: see https://docs.example.com/spec/v2
+28/09/2024, 12:26 - Sana: no idea honestly 👍
+28/09/2024, 12:30 - Dev: kya scene hai
+28/09/2024, 12:35 - Rohit: see https://docs.example.com/spec/v2 🙏
+28/09/2024, 12:40 - Sana: on my way 🙏
+28/09/2024, 12:42 - Dev: the metrics look off
+29/09/2024, 09:24 - Priya: see https://docs.example.com/spec/v2 🙏
+29/09/2024, 09:32 - Rohit: can you review the PR when free 👍
+29/09/2024, 09:36 - Dev: good catch
+29/09/2024, 09:38 - Sana: on my way 👍
+29/09/2024, 09:46 - Dev: yes please 😅
+29/09/2024, 09:48 - Dev: the build is red again 😅
+30/09/2024, 22:32 - Rohit: kya scene hai 👍
+30/09/2024, 22:36 - Rohit: shipping the release now
+30/09/2024, 22:44 - Dev: that worked, thanks
+30/09/2024, 22:48 - Rohit: good catch 🎉
+30/09/2024, 22:52 - Rohit: lets sync at 4 😅
+30/09/2024, 22:59 - Priya: running 10 min late 🙏
+30/09/2024, 23:06 - Priya: that worked, thanks 😂
+30/09/2024, 23:14 - Dev: haha true 🎉
+01/10/2024, 21:34 - Priya: on my way 👍
+01/10/2024, 21:42 - Dev: the build is red again
+01/10/2024, 21:44 - Priya: that worked, thanks 😅
+01/10/2024, 21:51 - Priya: done and merged
+01/10/2024, 21:54 - Dev: sending the doc 😅
+03/10/2024, 15:28 - Dev: haha true 🎉
+03/10/2024, 15:36 - Rohit: shipping the release now 😅
+04/10/2024, 10:27 - Priya: lets park it for now 🙏
+04/10/2024, 10:34 - Priya: on my way 👍
+04/10/2024, 10:35 - Sana: lets park it for now 🎉
+04/10/2024, 10:40 - Rohit: sending the doc 😂
+04/10/2024, 10:49 - Priya: lets sync at 4 🎉
+04/10/2024, 10:53 - Sana: lets sync at 4 🎉
+04/10/2024, 10:56 - Sana: kya scene hai 😅
+04/10/2024, 11:00 - Priya: ok sounds good 👍
+05/10/2024, 21:35 - Rohit: the build is red again
+05/10/2024, 21:38 - Dev: can you review the PR when free 🎉
+05/10/2024, 21:43 - Sana: on my way 🙏
+05/10/2024, 21:44 - Sana: shipping the release now 👍
+05/10/2024, 21:46 - Rohit: the build is red again 🙏
+05/10/2024, 21:49 - Dev: the metrics look off
+05/10/2024, 21:53 - Dev: the build is red again 👍
+05/10/2024, 21:58 - Rohit: lets park it for now 👍
+06/10/2024, 10:03 - Rohit: yes please 😅
+06/10/2024, 10:04 - Sana: lets park it for now 😅
+06/10/2024, 10:10 - Sana: lets park it for now 😅
+06/10/2024, 10:17 - Rohit: lets park it for now 🎉
+06/10/2024, 10:21 - Priya: running 10 min late 😂
+06/10/2024, 10:25 - Sana: lets park it for now 🙏
+07/10/2024, 22:07 - Priya: running 10 min late
+07/10/2024, 22:09 - Priya: no idea honestly
+07/10/2024, 22:17 - Sana: lets sync at 4 🎉
+07/10/2024, 22:26 - Priya: see https://docs.example.com/spec/v2 🎉
+07/10/2024, 22:32 - Dev: yes please 😅
+07/10/2024, 22:35 - Dev: <Media omitted>
+07/10/2024, 22:43 - Dev: lets sync at 4 😂
+08/10/2024, 20:00 - Dev: the build is red again 👍
+08/10/2024, 20:09 - Priya: yes please 🎉
+09/10/2024, 22:14 - Rohit: kal milte hai 😂
+09/10/2024, 22:21 - Dev: lets sync at 4 😅
+10/10/2024, 10:01 - Dev: deadline moved to friday
+10/10/2024, 10:09 - Dev: <Media omitted>
+10/10/2024, 10:14 - Sana: haha true 🎉
+11/10/2024, 13:38 - Priya: kya scene hai
+11/10/2024, 13:45 - Rohit: done and merged 😂
+11/10/2024, 13:50 - Sana: yes please
+11/10/2024, 13:57 - Dev: yes please 🎉
+11/10/2024, 14:02 - Sana: kal milte hai
+11/10/2024, 14:09 - Rohit: kal milte hai 🙏
+11/10/2024, 14:16 - Dev: the metrics look off
+11/10/2024, 14:21 - Sana: kal milte hai 👍
+11/10/2024, 14:25 - Sana: shipping the release now 👍
+15/10/2024, 20:15 - Priya: running 10 min late
+15/10/2024, 20:17 - Rohit: kal milte hai 👍
+15/10/2024, 20:23 - Priya: yes please 👍
+15/10/2024, 20:30 - Priya: lets sync at 4 👍
+15/10/2024, 20:31 - Sana: lets sync at 4 😅
+15/10/2024, 20:36 - Dev: haha true 🙏
+15/10/2024, 20:40 - Priya: kal milte hai 😂
+16/10/2024, 14:25 - Sana: kya scene hai 🎉
+16/10/2024, 14:28 - Rohit: yes please
+16/10/2024, 14:37 - Priya: ok sounds good 😅
+18/10/2024, 21:04 - Priya: lets park it for now 🎉
+18/10/2024, 21:08 - Rohit: ok sounds good 🎉
+18/10/2024, 21:10 - Sana: see https://docs.example.com/spec/v2 😂
+19/10/2024, 21:05 - Rohit: running 10 min late
+19/10/2024, 21:10 - Priya: no idea honestly 🎉
+19/10/2024, 21:19 - Sana: deadline moved to friday
+19/10/2024, 21:26 - Rohit: haha true 🙏
+19/10/2024, 21:27 - Priya: no idea honestly 😂
+20/10/2024, 12:36 - Dev: yes please
+20/10/2024, 12:44 - Priya: kya scene hai
+21/10/2024, 21:36 - Sana: running 10 min late 🙏
+21/10/2024, 21:43 - Priya: shipping the release now
+21/10/2024, 21:46 - Rohit: no idea honestly
+21/10/2024, 21:52 - Dev: kya scene hai 👍
+21/10/2024, 21:58 - Dev: the metrics look off 👍
+21/10/2024, 22:02 - Dev: that worked, thanks
+21/10/2024, 22:06 - Priya: sending the doc 😅
+21/10/2024, 22:13 - Sana: shipping the release now 😅
+21/10/2024, 22:18 - Dev: lets sync at 4
+22/10/2024, 14:16 - Dev: see https://docs.example.com/spec/v2 🙏
+22/10/2024, 14:24 - Priya: the build is red again 🎉
+22/10/2024, 14:29 - Rohit: done and merged 😂
+22/10/2024, 14:34 - Dev: deadline moved to friday 😂
+22/10/2024, 14:43 - Sana: on my way 🙏
+22/10/2024, 14:46 - Dev: kya scene hai 😂
+22/10/2024, 14:51 - Rohit: lets park it for now 🙏
+23/10/2024, 13:38 - Priya: yes please 🙏
+23/10/2024, 13:41 - Sana: kal milte hai 😅
+23/10/2024, 13:47 - Rohit: lets park it for now 😅
+23/10/2024, 13:50 - Dev: the build is red again 😅
+23/10/2024, 13:59 - Rohit: the build is red again 👍
+23/10/2024, 14:05 - Sana: the metrics look off 😅
+23/10/2024, 14:12 - Rohit: yes please 🙏
+23/10/2024, 14:18 - Dev: kya scene hai 😂
+24/10/2024, 16:31 - Rohit: <Media omitted>
+24/10/2024, 16:35 - Dev: the metrics look off 🙏
+24/10/2024, 16:44 - Priya: on my way
+24/10/2024, 16:49 - Priya: yes please
+24/10/2024, 16:50 - Dev: lets park it for now 😅
+24/10/2024, 16:55 - Rohit: sending the doc
+24/10/2024, 17:04 - Sana: yes please 🎉
+24/10/2024, 17:10 - Sana: done and merged 👍
+24/10/2024, 17:16 - Priya: that worked, thanks 🎉
+28/10/2024, 15:11 - Priya: yes please 😅
+28/10/2024, 15:15 - Dev: lets park it for now 🙏
+28/10/2024, 15:21 - Sana: image omitted
+28/10/2024, 15:26 - Priya: lets sync at 4 🎉
+28/10/2024, 15:31 - Rohit: that worked, thanks 😅
+28/10/2024, 15:36 - Rohit: lets sync at 4 👍
+28/10/2024, 15:43 - Rohit: ok sounds good 🙏
+29/10/2024, 21:29 - Rohit: the metrics look off 😂
+29/10/2024, 21:31 - Dev: shipping the release now 😂
+30/10/2024, 22:34 - Rohit: the build is red again
+30/10/2024, 22:36 - Dev: lets park it for now
+30/10/2024, 22:41 - Dev: the build is red again
+30/10/2024, 22:48 - Dev: no idea honestly
+30/10/2024, 22:54 - Rohit: sending the doc 🎉
+30/10/2024, 23:00 - Dev: lets sync at 4
+01/11/2024, 21:19 - Priya: can you review the PR when free 😅
+01/11/2024, 21:23 - Rohit: shipping the release now 🎉
+01/11/2024, 21:27 - Sana: ok sounds good 😅
+01/11/2024, 21:34 - Priya: the metrics look off 🙏
+01/11/2024, 21:42 - Rohit: kal milte hai 😂
+01/11/2024, 21:48 - Dev: sending the doc 🎉
+06/11/2024, 11:24 - Priya: deadline moved to friday 🙏
+06/11/2024, 11:29 - Sana: sticker omitted
+06/11/2024, 11:34 - Dev: can you review the PR when free
+10/11/2024, 21:19 - Sana: can you review the PR when free 👍
+10/11/2024, 21:27 - Sana: yes please 😂
+10/11/2024, 21:33 - Sana: can you review the PR when free 👍
+10/11/2024, 21:36 - Dev: deadline moved to friday
+10/11/2024, 21:44 - Rohit: no idea honestly
+11/11/2024, 20:15 - Dev: deadline moved to friday 👍
+11/11/2024, 20:17 - Rohit: haha true 😅
+11/11/2024, 20:20 - Rohit: see https://docs.example.com/spec/v2
+11/11/2024, 20:23 - Sana: that worked, thanks 😅
+12/11/2024, 14:39 - Priya: yes please
+12/11/2024, 14:47 - Dev: haha true
+12/11/2024, 14:51 - Dev: deadline moved to friday
+12/11/2024, 14:52 - Dev: kal milte hai 😂
+12/11/2024, 14:56 - Dev: ok sounds good
+12/11/2024, 15:02 - Rohit: kya scene hai 👍
+12/11/2024, 15:06 - Sana: the metrics look off 🎉
+12/11/2024, 15:13 - Priya: ok sounds good 👍
+13/11/2024, 21:24 - Sana: yes please
+13/11/2024, 21:33 - Dev: running 10 min late 🙏
+13/11/2024, 21:38 - Sana: yes please 👍
+13/11/2024, 21:43 - Priya: see https://docs.example.com/spec/v2 👍
+14/11/2024, 21:03 - Rohit: done and merged 😅
+14/11/2024, 21:10 - Dev: kya scene hai
+19/11/2024, 20:34 - Priya: running 10 min late
+19/11/2024, 20:35 - Rohit: lets sync at 4
+19/11/2024, 20:37 - Rohit: good catch
+19/11/2024, 20:45 - Sana: lets park it for now
+19/11/2024, 20:46 - Dev: on my way 🙏
+22/11/2024, 11:28 - Rohit: on my way 👍
+22/11/2024, 11:36 - Priya: image omitted
+22/11/2024, 11:37 - Dev: on my way 🙏
+22/11/2024, 11:44 - Rohit: shipping the release now 👍
+22/11/2024, 11:47 - Sana: lets park it for now 🙏
+23/11/2024, 22:03 - Dev: the build is red again 🎉
+23/11/2024, 22:05 - Sana: sending the doc 🎉
+23/11/2024, 22:11 - Rohit: lets park it for now
+23/11/2024, 22:17 - Dev: sending the doc 🎉
+23/11/2024, 22:22 - Priya: can you review the PR when free
+23/11/2024, 22:31 - Sana: deadline moved to friday
+23/11/2024, 22:33 - Sana: sending the doc
+23/11/2024, 22:39 - Rohit: haha true
+24/11/2024, 21:12 - Priya: lets park it for now
+24/11/2024, 21:20 - Rohit: on my way 😅
+24/11/2024, 21:24 - Rohit: kal milte hai 😅
+25/11/2024, 13:21 - Dev: good catch 😅
+25/11/2024, 13:25 - Rohit: <Media omitted>
+25/11/2024, 13:32 - Priya: no idea honestly 🎉
+26/11/2024, 20:11 - Rohit: lets park it for now 🎉
+26/11/2024, 20:18 - Sana: lets park it for now 👍
+26/11/2024, 20:25 - Rohit: yes please
+26/11/2024, 20:33 - Rohit: lets park it for now
+26/11/2024, 20:40 - Sana: sending the doc
+26/11/2024, 20:45 - Sana: running 10 min late 👍
+26/11/2024, 20:54 - Priya: the build is red again
+26/11/2024, 21:01 - Rohit: lets sync at 4 😂
+26/11/2024, 21:08 - Priya: sticker omitted
+27/11/2024, 22:34 - Rohit: done and merged 😅
+27/11/2024, 22:37 - Rohit: running 10 min late 😂
+27/11/2024, 22:43 - Dev: that worked, thanks 🎉
+28/11/2024, 15:11 - Priya: kya scene hai
+28/11/2024, 15:15 - Rohit: sending the doc 😂
+28/11/2024, 15:21 - Priya: can you review the PR when free 🎉
+28/11/2024, 15:27 - Rohit: shipping the release now
+28/11/2024, 15:29 - Sana: ok sounds good
+28/11/2024, 15:36 - Sana: yes please 🙏
+29/11/2024, 16:24 - Dev: <Media omitted>
+29/11/2024, 16:25 - Dev: sticker omitted
+29/11/2024, 16:27 - Sana: see https://docs.example.com/spec/v2
+29/11/2024, 16:32 - Rohit: haha true 😅
+29/11/2024, 16:41 - Rohit: see https://docs.example.com/spec/v2
+29/11/2024, 16:43 - Priya: that worked, thanks 😂
+29/11/2024, 16:52 - Priya: lets sync at 4 🎉
+29/11/2024, 17:00 - Dev: ok sounds good 🙏
+30/11/2024, 20:15 - Rohit: running 10 min late
+30/11/2024, 20:22 - Dev: good catch 🙏
+01/12/2024, 14:11 - Sana: deadline moved to friday 😅
+01/12/2024, 14:15 - Dev: sticker omitted
+01/12/2024, 14:20 - Priya: can you review the PR when free 🙏
+01/12/2024, 14:25 - Dev: shipping the release now 😂
+01/12/2024, 14:31 - Dev: sending the doc 😂
+01/12/2024, 14:36 - Sana: the metrics look off 👍
+02/12/2024, 22:04 - Priya: kal milte hai
+02/12/2024, 22:10 - Priya: deadline moved to friday
+03/12/2024, 12:08 - Priya: kal milte hai
+03/12/2024, 12:14 - Rohit: kal milte hai 👍
+03/12/2024, 12:21 - Sana: haha true 😂
+03/12/2024, 12:28 - Dev: running 10 min late 😂
+03/12/2024, 12:34 - Priya: lets sync at 4 🎉
+03/12/2024, 12:43 - Dev: the build is red again 🎉
+03/12/2024, 12:51 - Dev: haha true 👍
+03/12/2024, 12:53 - Sana: sticker omitted
+03/12/2024, 13:01 - Sana: no idea honestly 😂
+04/12/2024, 20:05 - Sana: no idea honestly 👍
+04/12/2024, 20:11 - Sana: deadline moved to friday 🎉
+04/12/2024, 20:14 - Dev: haha true
+04/12/2024, 20:16 - Sana: <Media omitted>
+05/12/2024, 21:32 - Priya: that worked, thanks 😅
+05/12/2024, 21:36 - Dev: done and merged 😅
+05/12/2024, 21:37 - Dev: done and merged 🎉
+05/12/2024, 21:41 - Rohit: deadline moved to friday 🙏
+05/12/2024, 21:45 - Rohit: good catch 😂
+09/12/2024, 10:06 - Dev: sending the doc
+09/12/2024, 10:15 - Sana: sticker omitted
+10/12/2024, 15:32 - Dev: can you review the PR when free 😅
+10/12/2024, 15:39 - Priya: haha true
+10/12/2024, 15:43 - Rohit: shipping the release now
+11/12/2024, 15:02 - Dev: lets park it for now
+11/12/2024, 15:03 - Priya: the metrics look off 🎉
+11/12/2024, 15:11 - Sana: can you review the PR when free 🎉
+11/12/2024, 15:17 - Rohit: on my way
+11/12/2024, 15:26 - Dev: lets park it for now 😅
+11/12/2024, 15:31 - Rohit: can you review the PR when free
+11/12/2024, 15:38 - Rohit: <Media omitted>
+11/12/2024, 15:44 - Priya: haha true 👍

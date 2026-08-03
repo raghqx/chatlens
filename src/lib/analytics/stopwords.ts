@@ -1,0 +1,136 @@
+/**
+ * Stopwords for term-frequency analysis: English plus romanised Hindi/Hinglish.
+ *
+ * Hinglish matters here — WhatsApp chats in South Asia mix scripts freely, and
+ * an English-only list leaves 'hai', 'nahi', 'kya' and 'matlab' dominating every
+ * word count. The list is a Set of whole words, checked with `has()`.
+ *
+ * The predecessor to this project read the same vocabulary into a single string
+ * and tested membership with `in`, which is a substring test: 'a' matched
+ * because it occurs inside 'aap', so most short real words were silently
+ * discarded. Whole-word Set membership is the fix.
+ */
+export const STOPWORDS: ReadonlySet<string> = new Set([
+  "a", "aadi", "aaj", "aap", "aapne", "aata", "aati", "aaya", "aaye", "ab", "abbe", "abbey",
+  "abe", "abhi", "able", "about", "above", "accha", "according", "accordingly", "acha",
+  "achcha", "across", "actually", "after", "afterwards", "again", "against", "agar", "ain",
+  "ain't", "aint", "aisa", "aise", "aisi", "alag", "all", "allow", "allows", "almost", "alone",
+  "along", "already", "also", "although", "always", "am", "among", "amongst", "an", "and",
+  "andar", "another", "any", "anybody", "anyhow", "anyone", "anything", "anyway", "anyways",
+  "anywhere", "ap", "apan", "apart", "apna", "apnaa", "apne", "apni", "appear", "are", "aren",
+  "aren't", "arent", "around", "arre", "as", "aside", "ask", "asking", "at", "aur", "avum",
+  "aya", "aye", "baad", "baar", "bad", "bahut", "bana", "banae", "banai", "banao", "banaya",
+  "banaye", "banayi", "banda", "bande", "bandi", "bane", "bani", "bas", "bata", "batao", "bc",
+  "be", "became", "because", "become", "becomes", "becoming", "been", "before", "beforehand",
+  "behind", "being", "below", "beside", "besides", "best", "better", "between", "beyond",
+  "bhai", "bheetar", "bhi", "bhitar", "bht", "bilkul", "bohot", "bol", "bola", "bole", "boli",
+  "bolo", "bolta", "bolte", "bolti", "both", "brief", "bro", "btw", "but", "by", "c'mon",
+  "came", "can", "can't", "cannot", "cant", "cause", "causes", "certain", "certainly",
+  "chahiye", "chaiye", "chal", "chalega", "chhaiye", "clearly", "com", "come", "comes",
+  "could", "couldn", "couldn't", "couldnt", "d", "de", "dede", "dega", "degi", "dekh", "dekha",
+  "dekhe", "dekhi", "dekho", "denge", "dhang", "di", "did", "didn", "didn't", "didnt",
+  "dijiye", "diya", "diyaa", "diye", "diyo", "do", "does", "doesn", "doesn't", "doesnt",
+  "doing", "don't", "done", "dono", "dont", "doosra", "doosre", "down", "downwards", "dude",
+  "dunga", "dungi", "during", "dusra", "dusre", "dusri", "dvaara", "dvara", "dwaara", "dwara",
+  "each", "edu", "eg", "eight", "either", "ek", "else", "elsewhere", "enough", "etc", "even",
+  "ever", "every", "everybody", "everyone", "everything", "everywhere", "ex", "exactly",
+  "example", "except", "far", "few", "fifth", "fir", "first", "five", "followed", "following",
+  "follows", "for", "forth", "four", "from", "further", "furthermore", "gaya", "gaye", "gayi",
+  "get", "gets", "getting", "ghar", "given", "gives", "go", "goes", "going", "gone", "good",
+  "got", "gotten", "greetings", "guys", "haan", "had", "hadd", "hadn", "hadn't", "hadnt",
+  "hai", "hain", "hamara", "hamare", "hamari", "hamne", "han", "happens", "har", "hardly",
+  "has", "hasn", "hasn't", "hasnt", "have", "haven", "haven't", "havent", "having", "he",
+  "he's", "hello", "help", "hence", "her", "here", "here's", "hereafter", "hereby", "herein",
+  "hereupon", "hers", "herself", "hi", "him", "himself", "his", "hither", "hm", "hmm", "ho",
+  "hoga", "hoge", "hogi", "hona", "honaa", "hone", "honge", "hongi", "honi", "hopefully",
+  "hota", "hotaa", "hote", "hoti", "how", "howbeit", "however", "hoyenge", "hoyengi", "hu",
+  "hua", "hue", "huh", "hui", "hum", "humein", "humne", "hun", "huye", "huyi", "i", "i'd",
+  "i'll", "i'm", "i've", "idk", "ie", "if", "imo", "in", "inasmuch", "inc", "inhe", "inhi",
+  "inho", "inka", "inkaa", "inke", "inki", "inn", "inner", "inse", "insofar", "into", "inward",
+  "is", "ise", "isi", "iska", "iskaa", "iske", "iski", "isme", "isn", "isn't", "isne", "isnt",
+  "iss", "isse", "issi", "isski", "it", "it'd", "it'll", "it's", "itna", "itne", "itni",
+  "itno", "its", "itself", "ityaadi", "ityadi", "ja", "jaa", "jab", "jabh", "jaha", "jahaan",
+  "jahan", "jaisa", "jaise", "jaisi", "jata", "jayega", "jidhar", "jin", "jinhe", "jinhi",
+  "jinho", "jinhone", "jinka", "jinke", "jinki", "jinn", "jis", "jise", "jiska", "jiske",
+  "jiski", "jisme", "jiss", "jisse", "jitna", "jitne", "jitni", "jo", "just", "jyaada",
+  "jyada", "k", "ka", "kaafi", "kab", "kabhi", "kafi", "kaha", "kahaa", "kahaan", "kahan",
+  "kahi", "kahin", "kahte", "kaisa", "kaise", "kaisi", "kal", "kam", "kar", "kara", "kare",
+  "karega", "karegi", "karen", "karenge", "kari", "karke", "karna", "karne", "karni", "karo",
+  "karta", "karte", "karti", "karu", "karun", "karunga", "karungi", "kaun", "kaunsa", "kayi",
+  "kch", "ke", "keep", "keeps", "keh", "kehte", "kept", "khud", "ki", "kin", "kine", "kinhe",
+  "kinho", "kinka", "kinke", "kinki", "kinko", "kinn", "kino", "kis", "kise", "kisi", "kiska",
+  "kiske", "kiski", "kisko", "kisliye", "kisne", "kitna", "kitne", "kitni", "kitno", "kiya",
+  "kiye", "know", "known", "knows", "ko", "koi", "kon", "konsa", "koyi", "krna", "krne",
+  "kuch", "kuchch", "kuchh", "kul", "kull", "kya", "kyaa", "kyu", "kyuki", "kyun", "kyunki",
+  "lagta", "lagte", "lagti", "last", "lately", "later", "le", "least", "lekar", "lekin",
+  "less", "lest", "let", "let's", "li", "like", "liked", "likely", "little", "liya", "liye",
+  "ll", "lo", "log", "logon", "lol", "look", "looking", "looks", "ltd", "lunga", "m", "maan",
+  "maana", "maane", "maani", "maano", "magar", "mai", "main", "maine", "mainly", "mana",
+  "mane", "mani", "mano", "many", "mat", "may", "maybe", "me", "mean", "meanwhile", "mein",
+  "mera", "mere", "merely", "meri", "might", "mightn", "mightn't", "mightnt", "mil", "mjhe",
+  "more", "moreover", "most", "mostly", "much", "mujhe", "must", "mustn", "mustn't", "mustnt",
+  "my", "myself", "na", "naa", "naah", "nahi", "nahin", "nai", "name", "namely", "nd", "ne",
+  "near", "nearly", "necessary", "neeche", "need", "needn", "needn't", "neednt", "needs",
+  "neither", "never", "nevertheless", "new", "next", "nhi", "nine", "no", "nobody", "non",
+  "none", "noone", "nope", "nor", "normally", "not", "nothing", "novel", "now", "nowhere", "o",
+  "obviously", "of", "off", "often", "oh", "ok", "okay", "old", "on", "once", "one", "ones",
+  "only", "onto", "or", "other", "others", "otherwise", "ought", "our", "ours", "ourselves",
+  "out", "outside", "over", "overall", "own", "par", "pata", "pe", "pehla", "pehle", "pehli",
+  "people", "per", "perhaps", "phla", "phle", "phli", "placed", "please", "plus", "poora",
+  "poori", "provides", "pura", "puri", "q", "que", "quite", "raha", "rahaa", "rahe", "rahi",
+  "rakh", "rakha", "rakhe", "rakhen", "rakhi", "rakho", "rather", "re", "really", "reasonably",
+  "regarding", "regardless", "regards", "rehte", "rha", "rhaa", "rhe", "rhi", "ri", "right",
+  "s", "sa", "saara", "saare", "saath", "sab", "sabhi", "sabse", "sahi", "said", "sakta",
+  "saktaa", "sakte", "sakti", "same", "sang", "sara", "sath", "saw", "say", "saying", "says",
+  "se", "second", "secondly", "see", "seeing", "seem", "seemed", "seeming", "seems", "seen",
+  "self", "selves", "sensible", "sent", "serious", "seriously", "seven", "several", "shall",
+  "shan", "shan't", "shant", "she", "she's", "should", "should've", "shouldn", "shouldn't",
+  "shouldnt", "si", "since", "sir", "sir.", "six", "so", "soch", "some", "somebody", "somehow",
+  "someone", "something", "sometime", "sometimes", "somewhat", "somewhere", "soon", "still",
+  "sub", "such", "sup", "sure", "t", "tab", "tabh", "tak", "take", "taken", "tarah", "teen",
+  "teeno", "teesra", "teesre", "teesri", "tell", "tends", "tera", "tere", "teri", "th", "tha",
+  "than", "thank", "thanks", "thanx", "that", "that'll", "that's", "thats", "the", "theek",
+  "their", "theirs", "them", "themselves", "then", "thence", "there", "there's", "thereafter",
+  "thereby", "therefore", "therein", "theres", "thereupon", "these", "they", "they'd",
+  "they'll", "they're", "they've", "thi", "thik", "thing", "think", "thinking", "third",
+  "this", "tho", "thoda", "thodi", "thorough", "thoroughly", "those", "though", "thought",
+  "three", "through", "throughout", "thru", "thus", "tjhe", "to", "together", "toh", "too",
+  "took", "toward", "towards", "tried", "tries", "true", "truly", "try", "trying", "tu",
+  "tujhe", "tum", "tumhara", "tumhare", "tumhari", "tune", "twice", "two", "um", "umm", "un",
+  "under", "unhe", "unhi", "unho", "unhone", "unka", "unkaa", "unke", "unki", "unko", "unless",
+  "unlikely", "unn", "unse", "until", "unto", "up", "upar", "upon", "us", "use", "used",
+  "useful", "uses", "usi", "using", "uska", "uske", "usne", "uss", "usse", "ussi", "usually",
+  "vaala", "vaale", "vaali", "vahaan", "vahan", "vahi", "vahin", "vaisa", "vaise", "vaisi",
+  "vala", "vale", "vali", "various", "ve", "very", "via", "viz", "vo", "waala", "waale",
+  "waali", "wagaira", "wagairah", "wagerah", "waha", "wahaan", "wahan", "wahi", "wahin",
+  "waisa", "waise", "waisi", "wala", "wale", "wali", "want", "wants", "was", "wasn", "wasn't",
+  "wasnt", "way", "we", "we'd", "we'll", "we're", "we've", "well", "went", "were", "weren",
+  "weren't", "werent", "what", "what's", "whatever", "when", "whence", "whenever", "where",
+  "where's", "whereafter", "whereas", "whereby", "wherein", "whereupon", "wherever", "whether",
+  "which", "while", "who", "who's", "whoever", "whole", "whom", "whose", "why", "will",
+  "willing", "with", "within", "without", "wo", "woh", "wohi", "won", "won't", "wont", "would",
+  "wouldn", "wouldn't", "wouldnt", "y", "ya", "yadi", "yah", "yaha", "yahaan", "yahan", "yahi",
+  "yahin", "ye", "yeah", "yeh", "yehi", "yes", "yet", "you", "you'd", "you'll", "you're",
+  "you've", "your", "yours", "yourself", "yourselves", "yup",
+]);
+
+/** Terms shorter than this carry no signal even when they are not stopwords. */
+export const MIN_TERM_LENGTH = 2;
+
+export function isStopword(term: string): boolean {
+  return term.length < MIN_TERM_LENGTH || STOPWORDS.has(term);
+}
+
+/** Digits only: phone fragments, OTPs, order ids, years. Never useful vocabulary. */
+const NUMERIC_ONLY = /^\p{N}+$/u;
+
+/**
+ * Whether a token belongs in a term-frequency ranking.
+ *
+ * Excludes numbers as well as stopwords. Beyond being noise, numeric tokens are
+ * a disclosure risk: a phone number tokenises into digit runs that would
+ * otherwise ride into the shared digest inside `topTerms`.
+ */
+export function isMeaningfulTerm(term: string): boolean {
+  return !isStopword(term) && !NUMERIC_ONLY.test(term);
+}

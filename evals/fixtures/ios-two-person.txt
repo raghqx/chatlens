@@ -1,0 +1,901 @@
+[04/03/2024, 8:00:00 AM] Messages and calls are end-to-end encrypted.
+[05/03/2024, 1:37:02 PM] Aarav: <Media omitted>
+[05/03/2024, 1:45:54 PM] Meera: sending the doc 🎉
+[05/03/2024, 1:51:44 PM] Meera: kya scene hai 🎉
+[05/03/2024, 1:59:33 PM] Aarav: deadline moved to friday 😅
+[05/03/2024, 2:07:13 PM] Aarav: lets park it for now
+[05/03/2024, 2:11:51 PM] Aarav: can you review the PR when free 🙏
+[05/03/2024, 2:19:01 PM] Aarav: good catch 😂
+[05/03/2024, 2:24:44 PM] Aarav: see https://docs.example.com/spec/v2 🙏
+[10/03/2024, 12:39:29 PM] Aarav: yes please 🎉
+[10/03/2024, 12:41:52 PM] Aarav: ok sounds good 🙏
+[10/03/2024, 12:48:56 PM] Aarav: on my way
+[11/03/2024, 3:20:28 PM] Meera: the metrics look off 😂
+[11/03/2024, 3:23:41 PM] Meera: shipping the release now
+[11/03/2024, 3:27:02 PM] Meera: shipping the release now 🎉
+[11/03/2024, 3:34:05 PM] Aarav: kal milte hai 😂
+[11/03/2024, 3:42:02 PM] Aarav: that worked, thanks 🎉
+[11/03/2024, 3:45:10 PM] Meera: can you review the PR when free 👍
+[11/03/2024, 3:49:53 PM] Meera: running 10 min late 😂
+[11/03/2024, 3:56:22 PM] Meera: on my way 😅
+[12/03/2024, 10:17:59 PM] Aarav: done and merged 😅
+[12/03/2024, 10:26:51 PM] Meera: sticker omitted
+[12/03/2024, 10:29:45 PM] Meera: good catch 😅
+[12/03/2024, 10:35:55 PM] Meera: lets sync at 4
+[12/03/2024, 10:36:59 PM] Aarav: deadline moved to friday 👍
+[12/03/2024, 10:41:54 PM] Meera: yes please 🎉
+[12/03/2024, 10:46:09 PM] Meera: sticker omitted
+[12/03/2024, 10:49:01 PM] Aarav: on my way 😅
+[12/03/2024, 10:53:28 PM] Aarav: deadline moved to friday 🙏
+[13/03/2024, 9:18:16 PM] Meera: ok sounds good 😅
+[13/03/2024, 9:23:45 PM] Meera: see https://docs.example.com/spec/v2 👍
+[13/03/2024, 9:26:23 PM] Meera: ok sounds good 👍
+[13/03/2024, 9:31:31 PM] Aarav: good catch 👍
+[18/03/2024, 9:37:14 PM] Meera: haha true
+[18/03/2024, 9:42:33 PM] Aarav: good catch 🎉
+[18/03/2024, 9:44:01 PM] Meera: ok sounds good 🎉
+[19/03/2024, 9:34:58 PM] Aarav: <Media omitted>
+[19/03/2024, 9:43:29 PM] Meera: that worked, thanks 😅
+[19/03/2024, 9:45:45 PM] Meera: deadline moved to friday
+[19/03/2024, 9:51:11 PM] Aarav: done and merged 🎉
+[19/03/2024, 9:52:12 PM] Aarav: good catch 😅
+[19/03/2024, 9:55:29 PM] Meera: sticker omitted
+[20/03/2024, 12:25:43 PM] Aarav: the build is red again 👍
+[20/03/2024, 12:29:50 PM] Meera: kya scene hai
+[20/03/2024, 12:36:37 PM] Aarav: done and merged 😂
+[20/03/2024, 12:44:40 PM] Meera: kya scene hai 👍
+[20/03/2024, 12:46:26 PM] Aarav: shipping the release now 🙏
+[20/03/2024, 12:47:58 PM] Meera: on my way
+[20/03/2024, 12:53:49 PM] Meera: running 10 min late 👍
+[20/03/2024, 12:57:37 PM] Aarav: kal milte hai
+[21/03/2024, 10:12:42 PM] Meera: yes please 😂
+[21/03/2024, 10:15:34 PM] Aarav: the metrics look off 👍
+[23/03/2024, 3:34:45 PM] Aarav: on my way 👍
+[23/03/2024, 3:37:22 PM] Meera: lets sync at 4 🎉
+[23/03/2024, 3:40:17 PM] Aarav: <Media omitted>
+[23/03/2024, 3:43:19 PM] Meera: <Media omitted>
+[23/03/2024, 3:50:30 PM] Aarav: yes please 😅
+[23/03/2024, 3:52:59 PM] Meera: see https://docs.example.com/spec/v2
+[23/03/2024, 3:55:00 PM] Meera: can you review the PR when free 👍
+[23/03/2024, 3:58:12 PM] Meera: ok sounds good 😂
+[23/03/2024, 4:01:29 PM] Meera: haha true 👍
+[24/03/2024, 12:38:23 PM] Aarav: sticker omitted
+[24/03/2024, 12:46:19 PM] Aarav: lets sync at 4
+[24/03/2024, 12:54:14 PM] Aarav: on my way 👍
+[25/03/2024, 10:09:13 PM] Meera: that worked, thanks 🎉
+[25/03/2024, 10:11:07 PM] Aarav: haha true 😂
+[25/03/2024, 10:12:19 PM] Meera: can you review the PR when free 🙏
+[25/03/2024, 10:20:44 PM] Aarav: kal milte hai 😂
+[25/03/2024, 10:25:01 PM] Meera: no idea honestly
+[25/03/2024, 10:27:36 PM] Aarav: lets sync at 4
+[25/03/2024, 10:32:09 PM] Aarav: kya scene hai 🙏
+[26/03/2024, 8:27:40 PM] Meera: lets sync at 4 🎉
+[26/03/2024, 8:29:07 PM] Aarav: deadline moved to friday
+[27/03/2024, 10:07:11 PM] Aarav: good catch 🙏
+[27/03/2024, 10:08:20 PM] Meera: the metrics look off 😅
+[27/03/2024, 10:11:48 PM] Meera: that worked, thanks 😅
+[27/03/2024, 10:20:47 PM] Meera: kya scene hai
+[27/03/2024, 10:22:05 PM] Aarav: good catch 😅
+[27/03/2024, 10:26:56 PM] Meera: kya scene hai
+[27/03/2024, 10:31:13 PM] Aarav: running 10 min late
+[28/03/2024, 9:20:45 PM] Meera: the metrics look off 😂
+[28/03/2024, 9:27:22 PM] Meera: deadline moved to friday 🙏
+[29/03/2024, 12:15:36 PM] Aarav: can you review the PR when free 😂
+[29/03/2024, 12:18:57 PM] Aarav: shipping the release now 👍
+[29/03/2024, 12:25:14 PM] Aarav: deadline moved to friday
+[30/03/2024, 9:32:58 PM] Meera: running 10 min late 🙏
+[30/03/2024, 9:39:49 PM] Aarav: yes please
+[30/03/2024, 9:48:01 PM] Aarav: the build is red again 🎉
+[30/03/2024, 9:55:49 PM] Meera: <Media omitted>
+[31/03/2024, 4:25:55 PM] Aarav: can you review the PR when free 👍
+[31/03/2024, 4:32:03 PM] Meera: on my way
+[01/04/2024, 2:20:44 PM] Aarav: lets park it for now 😂
+[01/04/2024, 2:26:16 PM] Aarav: ok sounds good
+[02/04/2024, 10:18:07 PM] Aarav: lets sync at 4
+[02/04/2024, 10:20:10 PM] Meera: yes please
+[02/04/2024, 10:28:26 PM] Aarav: the metrics look off 🎉
+[02/04/2024, 10:32:30 PM] Aarav: lets sync at 4 🙏
+[03/04/2024, 9:04:16 PM] Aarav: lets sync at 4 🙏
+[03/04/2024, 9:13:01 PM] Aarav: lets park it for now
+[04/04/2024, 9:12:26 PM] Meera: lets park it for now 🎉
+[04/04/2024, 9:14:53 PM] Meera: deadline moved to friday 😂
+[04/04/2024, 9:20:29 PM] Aarav: good catch
+[05/04/2024, 9:08:46 AM] Meera: lets sync at 4 🙏
+[05/04/2024, 9:15:00 AM] Aarav: see https://docs.example.com/spec/v2 😂
+[06/04/2024, 1:03:13 PM] Aarav: done and merged 🙏
+[06/04/2024, 1:11:01 PM] Aarav: no idea honestly
+[08/04/2024, 9:23:02 PM] Meera: yes please 👍
+[08/04/2024, 9:25:13 PM] Meera: on my way
+[08/04/2024, 9:28:16 PM] Aarav: sending the doc 🙏
+[08/04/2024, 9:29:36 PM] Meera: ok sounds good 👍
+[08/04/2024, 9:38:21 PM] Meera: that worked, thanks
+[08/04/2024, 9:44:50 PM] Meera: yes please 😂
+[08/04/2024, 9:51:19 PM] Meera: kal milte hai 😅
+[08/04/2024, 9:57:39 PM] Aarav: lets sync at 4
+[08/04/2024, 10:00:07 PM] Aarav: the build is red again 🙏
+[09/04/2024, 8:25:29 PM] Aarav: lets sync at 4
+[09/04/2024, 8:31:23 PM] Aarav: deadline moved to friday 😅
+[09/04/2024, 8:34:14 PM] Meera: can you review the PR when free 🎉
+[09/04/2024, 8:37:18 PM] Aarav: no idea honestly 🎉
+[10/04/2024, 8:27:21 PM] Meera: good catch 👍
+[10/04/2024, 8:30:41 PM] Meera: sending the doc 👍
+[10/04/2024, 8:34:27 PM] Aarav: sending the doc 🎉
+[10/04/2024, 8:40:59 PM] Aarav: haha true 😅
+[10/04/2024, 8:46:46 PM] Aarav: the metrics look off
+[11/04/2024, 1:33:19 PM] Meera: ok sounds good
+[11/04/2024, 1:39:50 PM] Meera: on my way
+[11/04/2024, 1:48:27 PM] Meera: good catch
+[11/04/2024, 1:55:34 PM] Aarav: the metrics look off 🙏
+[11/04/2024, 2:04:00 PM] Meera: haha true 😂
+[12/04/2024, 3:21:00 PM] Aarav: sticker omitted
+[12/04/2024, 3:27:18 PM] Meera: no idea honestly 😂
+[12/04/2024, 3:36:16 PM] Meera: no idea honestly
+[12/04/2024, 3:37:32 PM] Aarav: ok sounds good
+[12/04/2024, 3:41:03 PM] Meera: the build is red again 😂
+[12/04/2024, 3:46:50 PM] Meera: can you review the PR when free 👍
+[13/04/2024, 10:00:57 PM] Aarav: lets sync at 4 🙏
+[13/04/2024, 10:03:20 PM] Meera: the metrics look off 👍
+[13/04/2024, 10:06:51 PM] Aarav: the metrics look off 🙏
+[14/04/2024, 9:10:46 PM] Aarav: haha true
+[14/04/2024, 9:19:45 PM] Meera: that worked, thanks 🎉
+[14/04/2024, 9:21:48 PM] Aarav: running 10 min late 🎉
+[14/04/2024, 9:23:46 PM] Meera: haha true 👍
+[14/04/2024, 9:29:08 PM] Meera: good catch
+[14/04/2024, 9:31:51 PM] Meera: lets sync at 4 👍
+[18/04/2024, 9:32:29 PM] Aarav: lets sync at 4 🙏
+[18/04/2024, 9:36:25 PM] Meera: ok sounds good
+[18/04/2024, 9:40:01 PM] Aarav: haha true 🎉
+[18/04/2024, 9:43:02 PM] Aarav: yes please 👍
+[18/04/2024, 9:47:47 PM] Aarav: ok sounds good
+[18/04/2024, 9:56:21 PM] Meera: lets sync at 4 🎉
+[18/04/2024, 10:00:30 PM] Meera: shipping the release now 😅
+[18/04/2024, 10:07:18 PM] Aarav: running 10 min late 👍
+[23/04/2024, 10:07:36 PM] Meera: lets sync at 4 🙏
+[23/04/2024, 10:11:02 PM] Aarav: on my way
+[23/04/2024, 10:12:22 PM] Aarav: the build is red again
+[23/04/2024, 10:17:08 PM] Aarav: no idea honestly 😅
+[24/04/2024, 9:24:49 PM] Aarav: lets park it for now 😅
+[24/04/2024, 9:30:31 PM] Aarav: shipping the release now
+[24/04/2024, 9:33:45 PM] Aarav: done and merged
+[24/04/2024, 9:37:04 PM] Aarav: the build is red again
+[24/04/2024, 9:44:08 PM] Meera: yes please
+[25/04/2024, 9:07:12 PM] Aarav: good catch 😅
+[25/04/2024, 9:10:19 PM] Meera: done and merged 😅
+[26/04/2024, 9:25:49 PM] Aarav: <Media omitted>
+[26/04/2024, 9:34:47 PM] Aarav: the build is red again 👍
+[26/04/2024, 9:39:26 PM] Meera: sending the doc 😂
+[26/04/2024, 9:45:16 PM] Aarav: lets park it for now 🙏
+[26/04/2024, 9:49:29 PM] Meera: shipping the release now 😅
+[26/04/2024, 9:50:51 PM] Meera: the build is red again 😅
+[26/04/2024, 9:52:18 PM] Aarav: can you review the PR when free 🎉
+[27/04/2024, 8:00:09 PM] Meera: ok sounds good 😂
+[27/04/2024, 8:01:32 PM] Meera: running 10 min late 👍
+[27/04/2024, 8:05:03 PM] Meera: that worked, thanks 😂
+[27/04/2024, 8:12:16 PM] Aarav: kal milte hai 😂
+[27/04/2024, 8:15:32 PM] Meera: can you review the PR when free
+[27/04/2024, 8:23:46 PM] Aarav: shipping the release now 😂
+[27/04/2024, 8:24:53 PM] Meera: the build is red again 🎉
+[27/04/2024, 8:27:24 PM] Meera: kal milte hai
+[27/04/2024, 8:34:06 PM] Aarav: good catch 🙏
+[28/04/2024, 9:22:05 AM] Aarav: lets park it for now 🎉
+[28/04/2024, 9:28:26 AM] Aarav: yes please 😅
+[28/04/2024, 9:35:34 AM] Aarav: shipping the release now 🎉
+[28/04/2024, 9:42:35 AM] Aarav: shipping the release now
+[28/04/2024, 9:45:09 AM] Aarav: yes please
+[28/04/2024, 9:50:58 AM] Meera: lets sync at 4
+[28/04/2024, 9:52:11 AM] Aarav: kal milte hai
+[28/04/2024, 9:53:31 AM] Aarav: good catch 👍
+[28/04/2024, 10:00:06 AM] Aarav: image omitted
+[29/04/2024, 2:21:18 PM] Meera: can you review the PR when free 🎉
+[29/04/2024, 2:30:05 PM] Meera: no idea honestly 🎉
+[29/04/2024, 2:34:02 PM] Meera: on my way 😂
+[30/04/2024, 10:10:35 PM] Aarav: on my way 🙏
+[30/04/2024, 10:18:25 PM] Meera: kal milte hai 🙏
+[30/04/2024, 10:25:01 PM] Meera: running 10 min late 😅
+[30/04/2024, 10:28:38 PM] Meera: no idea honestly 😅
+[30/04/2024, 10:31:45 PM] Meera: done and merged 😂
+[01/05/2024, 10:04:40 PM] Aarav: yes please 👍
+[01/05/2024, 10:10:58 PM] Meera: sending the doc 🙏
+[01/05/2024, 10:12:07 PM] Aarav: see https://docs.example.com/spec/v2
+[02/05/2024, 9:25:32 PM] Aarav: kya scene hai 👍
+[02/05/2024, 9:29:45 PM] Aarav: on my way 👍
+[02/05/2024, 9:34:49 PM] Aarav: lets sync at 4 👍
+[02/05/2024, 9:40:45 PM] Meera: lets sync at 4
+[02/05/2024, 9:49:36 PM] Meera: good catch 🙏
+[03/05/2024, 2:20:11 PM] Meera: lets sync at 4
+[03/05/2024, 2:21:39 PM] Meera: lets park it for now 🙏
+[03/05/2024, 2:25:40 PM] Aarav: ok sounds good 😂
+[03/05/2024, 2:30:08 PM] Aarav: the metrics look off
+[03/05/2024, 2:32:23 PM] Meera: kya scene hai 😅
+[03/05/2024, 2:39:08 PM] Meera: can you review the PR when free 🙏
+[03/05/2024, 2:43:42 PM] Aarav: that worked, thanks
+[03/05/2024, 2:52:05 PM] Aarav: the metrics look off 😅
+[04/05/2024, 11:15:25 AM] Aarav: lets sync at 4 🎉
+[04/05/2024, 11:23:38 AM] Aarav: see https://docs.example.com/spec/v2
+[09/05/2024, 4:36:52 PM] Meera: running 10 min late 😅
+[09/05/2024, 4:44:30 PM] Aarav: image omitted
+[09/05/2024, 4:52:02 PM] Meera: running 10 min late 😂
+[09/05/2024, 4:53:59 PM] Meera: ok sounds good 👍
+[09/05/2024, 4:56:32 PM] Aarav: shipping the release now
+[09/05/2024, 5:02:11 PM] Aarav: kal milte hai 🙏
+[10/05/2024, 12:22:24 PM] Aarav: shipping the release now 👍
+[10/05/2024, 12:30:13 PM] Meera: running 10 min late 😅
+[10/05/2024, 12:36:40 PM] Aarav: image omitted
+[10/05/2024, 12:39:28 PM] Meera: yes please 😂
+[10/05/2024, 12:42:33 PM] Meera: image omitted
+[10/05/2024, 12:44:37 PM] Meera: deadline moved to friday 🎉
+[10/05/2024, 12:49:35 PM] Aarav: that worked, thanks 🙏
+[10/05/2024, 12:56:54 PM] Meera: no idea honestly 😂
+[11/05/2024, 9:37:45 AM] Aarav: no idea honestly 🙏
+[11/05/2024, 9:41:44 AM] Meera: running 10 min late
+[11/05/2024, 9:43:04 AM] Aarav: can you review the PR when free 😅
+[11/05/2024, 9:50:41 AM] Meera: the build is red again 😂
+[11/05/2024, 9:57:55 AM] Meera: on my way 🙏
+[12/05/2024, 9:09:13 PM] Aarav: lets sync at 4 🎉
+[12/05/2024, 9:15:22 PM] Aarav: <Media omitted>
+[12/05/2024, 9:23:28 PM] Aarav: see https://docs.example.com/spec/v2
+[12/05/2024, 9:27:23 PM] Meera: see https://docs.example.com/spec/v2 🙏
+[12/05/2024, 9:33:38 PM] Meera: on my way 🙏
+[12/05/2024, 9:36:16 PM] Aarav: deadline moved to friday 😅
+[13/05/2024, 8:32:37 PM] Meera: sending the doc 👍
+[13/05/2024, 8:35:16 PM] Meera: on my way 🙏
+[13/05/2024, 8:41:56 PM] Meera: haha true
+[13/05/2024, 8:48:50 PM] Meera: ok sounds good 😂
+[14/05/2024, 8:11:28 PM] Aarav: deadline moved to friday
+[14/05/2024, 8:19:31 PM] Meera: shipping the release now 🙏
+[14/05/2024, 8:23:50 PM] Meera: that worked, thanks 👍
+[14/05/2024, 8:31:07 PM] Aarav: can you review the PR when free
+[14/05/2024, 8:35:29 PM] Aarav: running 10 min late 👍
+[14/05/2024, 8:41:37 PM] Aarav: deadline moved to friday 😅
+[14/05/2024, 8:43:21 PM] Meera: see https://docs.example.com/spec/v2 😅
+[14/05/2024, 8:46:40 PM] Aarav: running 10 min late
+[14/05/2024, 8:50:05 PM] Aarav: done and merged 😂
+[17/05/2024, 9:15:51 PM] Meera: kya scene hai 🎉
+[17/05/2024, 9:17:47 PM] Meera: kal milte hai 😂
+[17/05/2024, 9:19:21 PM] Aarav: sticker omitted
+[17/05/2024, 9:23:24 PM] Meera: done and merged
+[17/05/2024, 9:27:47 PM] Meera: kya scene hai 😂
+[17/05/2024, 9:35:28 PM] Meera: see https://docs.example.com/spec/v2
+[17/05/2024, 9:41:51 PM] Meera: done and merged 🎉
+[18/05/2024, 10:04:14 PM] Aarav: deadline moved to friday 😂
+[18/05/2024, 10:08:53 PM] Aarav: haha true 🎉
+[18/05/2024, 10:10:59 PM] Aarav: deadline moved to friday
+[18/05/2024, 10:17:12 PM] Aarav: deadline moved to friday 😅
+[18/05/2024, 10:24:22 PM] Aarav: haha true 🎉
+[18/05/2024, 10:33:18 PM] Meera: running 10 min late 🙏
+[18/05/2024, 10:41:07 PM] Aarav: see https://docs.example.com/spec/v2 🎉
+[18/05/2024, 10:48:18 PM] Aarav: done and merged 😅
+[21/05/2024, 10:25:10 AM] Aarav: see https://docs.example.com/spec/v2 🙏
+[21/05/2024, 10:27:11 AM] Aarav: the metrics look off 🙏
+[21/05/2024, 10:31:38 AM] Meera: on my way 👍
+[21/05/2024, 10:37:26 AM] Aarav: can you review the PR when free 🎉
+[21/05/2024, 10:40:32 AM] Meera: sending the doc 👍
+[21/05/2024, 10:46:40 AM] Meera: sticker omitted
+[21/05/2024, 10:50:50 AM] Aarav: running 10 min late 🙏
+[21/05/2024, 10:57:11 AM] Aarav: kya scene hai 🙏
+[21/05/2024, 11:02:25 AM] Meera: on my way 🙏
+[22/05/2024, 10:22:29 PM] Aarav: no idea honestly 🎉
+[22/05/2024, 10:24:48 PM] Aarav: running 10 min late 😂
+[22/05/2024, 10:33:08 PM] Aarav: lets sync at 4 😂
+[25/05/2024, 8:11:58 PM] Aarav: can you review the PR when free 🎉
+[25/05/2024, 8:15:04 PM] Aarav: lets park it for now
+[25/05/2024, 8:16:16 PM] Aarav: good catch
+[25/05/2024, 8:18:14 PM] Meera: ok sounds good 👍
+[25/05/2024, 8:26:47 PM] Aarav: see https://docs.example.com/spec/v2 🎉
+[25/05/2024, 8:35:26 PM] Aarav: ok sounds good 👍
+[26/05/2024, 9:32:05 PM] Aarav: kal milte hai 👍
+[26/05/2024, 9:38:03 PM] Aarav: lets sync at 4 👍
+[26/05/2024, 9:42:19 PM] Meera: <Media omitted>
+[26/05/2024, 9:45:57 PM] Meera: the build is red again 🙏
+[26/05/2024, 9:47:35 PM] Aarav: kal milte hai
+[26/05/2024, 9:55:41 PM] Meera: no idea honestly
+[26/05/2024, 10:00:33 PM] Meera: kal milte hai 🙏
+[26/05/2024, 10:07:59 PM] Meera: running 10 min late 😂
+[27/05/2024, 2:16:50 PM] Meera: kal milte hai 👍
+[27/05/2024, 2:21:23 PM] Aarav: lets sync at 4
+[27/05/2024, 2:24:03 PM] Aarav: ok sounds good
+[27/05/2024, 2:28:06 PM] Meera: done and merged 🎉
+[31/05/2024, 9:10:33 PM] Meera: the metrics look off 😂
+[31/05/2024, 9:17:08 PM] Aarav: done and merged 🎉
+[31/05/2024, 9:19:42 PM] Meera: done and merged 👍
+[31/05/2024, 9:27:31 PM] Aarav: no idea honestly 😅
+[31/05/2024, 9:29:45 PM] Meera: on my way
+[31/05/2024, 9:35:57 PM] Meera: lets park it for now 👍
+[31/05/2024, 9:39:14 PM] Aarav: sending the doc 🙏
+[31/05/2024, 9:46:23 PM] Meera: shipping the release now 😅
+[01/06/2024, 8:35:06 PM] Aarav: ok sounds good
+[01/06/2024, 8:39:55 PM] Meera: running 10 min late 🎉
+[01/06/2024, 8:41:45 PM] Meera: that worked, thanks
+[01/06/2024, 8:44:51 PM] Meera: kal milte hai 😂
+[01/06/2024, 8:51:49 PM] Aarav: shipping the release now 🙏
+[02/06/2024, 4:25:01 PM] Aarav: no idea honestly 😅
+[02/06/2024, 4:32:28 PM] Meera: haha true
+[02/06/2024, 4:37:23 PM] Meera: see https://docs.example.com/spec/v2
+[02/06/2024, 4:39:32 PM] Aarav: yes please 😂
+[02/06/2024, 4:44:02 PM] Aarav: kal milte hai 😂
+[02/06/2024, 4:45:21 PM] Meera: on my way 👍
+[02/06/2024, 4:47:22 PM] Aarav: sending the doc 🙏
+[02/06/2024, 4:53:11 PM] Aarav: done and merged 👍
+[03/06/2024, 10:29:03 AM] Aarav: lets sync at 4
+[03/06/2024, 10:37:42 AM] Aarav: on my way 👍
+[03/06/2024, 10:39:04 AM] Meera: ok sounds good 😂
+[03/06/2024, 10:47:24 AM] Meera: deadline moved to friday
+[03/06/2024, 10:52:01 AM] Meera: lets sync at 4
+[03/06/2024, 10:57:11 AM] Meera: image omitted
+[04/06/2024, 10:29:48 PM] Aarav: lets park it for now 🙏
+[04/06/2024, 10:35:16 PM] Aarav: shipping the release now 🎉
+[04/06/2024, 10:37:32 PM] Meera: kal milte hai 🙏
+[04/06/2024, 10:38:43 PM] Meera: on my way 🙏
+[04/06/2024, 10:46:35 PM] Aarav: kya scene hai 👍
+[04/06/2024, 10:51:09 PM] Aarav: kal milte hai 😅
+[04/06/2024, 10:53:43 PM] Aarav: haha true
+[04/06/2024, 11:00:11 PM] Aarav: deadline moved to friday 😅
+[04/06/2024, 11:02:58 PM] Meera: running 10 min late 🙏
+[05/06/2024, 10:14:56 PM] Meera: no idea honestly 🎉
+[05/06/2024, 10:19:14 PM] Meera: haha true 😂
+[05/06/2024, 10:27:12 PM] Aarav: done and merged 🎉
+[06/06/2024, 9:30:09 AM] Meera: good catch 🎉
+[06/06/2024, 9:31:44 AM] Aarav: <Media omitted>
+[06/06/2024, 9:37:07 AM] Aarav: kal milte hai 🎉
+[06/06/2024, 9:40:18 AM] Meera: kal milte hai
+[07/06/2024, 12:18:43 PM] Meera: shipping the release now
+[07/06/2024, 12:23:01 PM] Aarav: the build is red again 🎉
+[07/06/2024, 12:29:53 PM] Meera: sticker omitted
+[07/06/2024, 12:33:13 PM] Aarav: on my way 🙏
+[07/06/2024, 12:36:46 PM] Meera: ok sounds good 🎉
+[08/06/2024, 8:00:42 PM] Meera: shipping the release now 😅
+[08/06/2024, 8:09:14 PM] Meera: lets park it for now
+[08/06/2024, 8:13:19 PM] Aarav: good catch
+[08/06/2024, 8:22:04 PM] Meera: running 10 min late 🎉
+[08/06/2024, 8:30:55 PM] Aarav: deadline moved to friday 😅
+[08/06/2024, 8:34:42 PM] Aarav: sending the doc 👍
+[08/06/2024, 8:41:06 PM] Aarav: that worked, thanks
+[13/06/2024, 9:25:00 PM] Meera: lets park it for now
+[13/06/2024, 9:29:11 PM] Aarav: haha true
+[13/06/2024, 9:33:59 PM] Aarav: see https://docs.example.com/spec/v2 👍
+[13/06/2024, 9:39:30 PM] Aarav: lets park it for now 🙏
+[13/06/2024, 9:47:19 PM] Meera: good catch 🎉
+[13/06/2024, 9:55:52 PM] Aarav: kal milte hai 😅
+[13/06/2024, 10:04:40 PM] Meera: the build is red again 👍
+[13/06/2024, 10:12:47 PM] Meera: image omitted
+[13/06/2024, 10:15:06 PM] Aarav: done and merged 😂
+[14/06/2024, 8:23:28 PM] Meera: deadline moved to friday 👍
+[14/06/2024, 8:30:37 PM] Aarav: image omitted
+[14/06/2024, 8:33:48 PM] Aarav: shipping the release now
+[14/06/2024, 8:41:34 PM] Meera: on my way 🙏
+[14/06/2024, 8:45:15 PM] Meera: lets park it for now
+[14/06/2024, 8:53:10 PM] Meera: no idea honestly 🙏
+[14/06/2024, 8:57:50 PM] Aarav: lets sync at 4
+[14/06/2024, 8:59:50 PM] Aarav: the metrics look off 👍
+[14/06/2024, 9:01:50 PM] Meera: on my way 😅
+[15/06/2024, 9:29:40 PM] Meera: running 10 min late
+[15/06/2024, 9:36:57 PM] Meera: see https://docs.example.com/spec/v2 😂
+[15/06/2024, 9:39:16 PM] Aarav: on my way 🎉
+[16/06/2024, 8:05:16 PM] Meera: no idea honestly 😂
+[16/06/2024, 8:11:30 PM] Aarav: see https://docs.example.com/spec/v2 🙏
+[16/06/2024, 8:14:09 PM] Meera: done and merged 🙏
+[16/06/2024, 8:18:43 PM] Aarav: kya scene hai 👍
+[16/06/2024, 8:26:18 PM] Aarav: see https://docs.example.com/spec/v2 😂
+[16/06/2024, 8:28:37 PM] Aarav: that worked, thanks 👍
+[16/06/2024, 8:37:19 PM] Aarav: sending the doc
+[20/06/2024, 11:37:43 AM] Aarav: yes please
+[20/06/2024, 11:41:56 AM] Aarav: deadline moved to friday
+[20/06/2024, 11:47:40 AM] Meera: sticker omitted
+[20/06/2024, 11:56:20 AM] Aarav: kya scene hai 😅
+[20/06/2024, 12:02:21 PM] Aarav: lets sync at 4
+[20/06/2024, 12:10:05 PM] Aarav: running 10 min late 🙏
+[20/06/2024, 12:15:12 PM] Aarav: lets sync at 4 👍
+[20/06/2024, 12:23:03 PM] Aarav: lets sync at 4 😅
+[21/06/2024, 4:38:37 PM] Meera: deadline moved to friday 😂
+[21/06/2024, 4:43:19 PM] Aarav: can you review the PR when free
+[21/06/2024, 4:50:35 PM] Meera: the build is red again 😅
+[21/06/2024, 4:57:29 PM] Aarav: lets park it for now
+[21/06/2024, 5:04:27 PM] Meera: lets sync at 4 😂
+[21/06/2024, 5:10:52 PM] Aarav: kya scene hai 👍
+[21/06/2024, 5:19:49 PM] Aarav: sending the doc 😅
+[21/06/2024, 5:24:46 PM] Aarav: shipping the release now 👍
+[22/06/2024, 10:32:25 PM] Meera: sticker omitted
+[22/06/2024, 10:38:03 PM] Aarav: lets sync at 4 😅
+[22/06/2024, 10:41:37 PM] Meera: sticker omitted
+[22/06/2024, 10:49:41 PM] Meera: yes please 🎉
+[22/06/2024, 10:51:58 PM] Meera: haha true
+[22/06/2024, 11:00:01 PM] Aarav: no idea honestly 👍
+[22/06/2024, 11:07:01 PM] Aarav: yes please 🙏
+[23/06/2024, 11:17:06 AM] Aarav: that worked, thanks 🎉
+[23/06/2024, 11:22:33 AM] Aarav: yes please
+[23/06/2024, 11:27:46 AM] Meera: no idea honestly 🎉
+[23/06/2024, 11:35:43 AM] Meera: yes please 🙏
+[23/06/2024, 11:44:16 AM] Aarav: ok sounds good 😅
+[25/06/2024, 10:09:32 AM] Meera: haha true
+[25/06/2024, 10:11:04 AM] Aarav: good catch 👍
+[25/06/2024, 10:16:02 AM] Aarav: running 10 min late
+[25/06/2024, 10:20:48 AM] Aarav: the build is red again 😂
+[25/06/2024, 10:25:58 AM] Meera: good catch 😂
+[26/06/2024, 9:29:14 AM] Meera: the metrics look off 👍
+[26/06/2024, 9:32:43 AM] Aarav: see https://docs.example.com/spec/v2 🙏
+[26/06/2024, 9:38:35 AM] Aarav: running 10 min late 🎉
+[27/06/2024, 8:39:55 PM] Meera: see https://docs.example.com/spec/v2 🙏
+[27/06/2024, 8:45:22 PM] Meera: see https://docs.example.com/spec/v2 🎉
+[27/06/2024, 8:53:51 PM] Aarav: deadline moved to friday 👍
+[27/06/2024, 9:00:28 PM] Aarav: ok sounds good 😂
+[27/06/2024, 9:07:36 PM] Meera: done and merged 🙏
+[27/06/2024, 9:16:21 PM] Aarav: <Media omitted>
+[27/06/2024, 9:24:15 PM] Aarav: good catch 🎉
+[28/06/2024, 11:10:48 AM] Meera: haha true 😂
+[28/06/2024, 11:16:42 AM] Meera: sending the doc
+[28/06/2024, 11:23:25 AM] Aarav: no idea honestly 👍
+[29/06/2024, 11:31:04 AM] Meera: good catch 🙏
+[29/06/2024, 11:34:07 AM] Aarav: sticker omitted
+[29/06/2024, 11:40:08 AM] Meera: running 10 min late 😂
+[29/06/2024, 11:48:38 AM] Aarav: good catch 🎉
+[29/06/2024, 11:50:13 AM] Meera: yes please
+[29/06/2024, 11:52:21 AM] Meera: kal milte hai 😂
+[29/06/2024, 11:58:13 AM] Meera: sending the doc 👍
+[29/06/2024, 12:00:23 PM] Aarav: deadline moved to friday 😅
+[29/06/2024, 12:04:46 PM] Meera: sending the doc
+[30/06/2024, 10:28:14 PM] Meera: the build is red again 🙏
+[30/06/2024, 10:33:49 PM] Aarav: lets sync at 4
+[30/06/2024, 10:39:25 PM] Meera: good catch 👍
+[30/06/2024, 10:40:47 PM] Meera: ok sounds good 🙏
+[30/06/2024, 10:42:01 PM] Meera: can you review the PR when free
+[30/06/2024, 10:45:27 PM] Meera: haha true 🎉
+[30/06/2024, 10:52:42 PM] Meera: no idea honestly 😅
+[30/06/2024, 10:55:59 PM] Aarav: running 10 min late 🎉
+[01/07/2024, 8:11:52 PM] Aarav: yes please
+[01/07/2024, 8:17:46 PM] Aarav: lets sync at 4 😅
+[01/07/2024, 8:22:35 PM] Aarav: no idea honestly 😂
+[01/07/2024, 8:31:04 PM] Meera: running 10 min late 👍
+[01/07/2024, 8:32:34 PM] Aarav: kal milte hai 👍
+[01/07/2024, 8:40:40 PM] Aarav: that worked, thanks 🎉
+[01/07/2024, 8:43:18 PM] Meera: can you review the PR when free
+[02/07/2024, 11:01:22 AM] Aarav: no idea honestly
+[02/07/2024, 11:02:23 AM] Aarav: kya scene hai 😅
+[02/07/2024, 11:11:02 AM] Aarav: sending the doc 🎉
+[03/07/2024, 9:06:32 PM] Aarav: on my way 😅
+[03/07/2024, 9:15:25 PM] Meera: sending the doc 🙏
+[03/07/2024, 9:21:23 PM] Meera: the metrics look off 🙏
+[03/07/2024, 9:28:58 PM] Meera: kal milte hai 🙏
+[04/07/2024, 10:25:13 AM] Aarav: that worked, thanks
+[04/07/2024, 10:32:15 AM] Aarav: on my way 😂
+[04/07/2024, 10:37:57 AM] Meera: done and merged 🙏
+[04/07/2024, 10:42:02 AM] Aarav: the build is red again 😂
+[04/07/2024, 10:46:12 AM] Aarav: running 10 min late
+[04/07/2024, 10:50:08 AM] Aarav: on my way
+[05/07/2024, 8:30:43 PM] Meera: that worked, thanks 😂
+[05/07/2024, 8:34:07 PM] Meera: see https://docs.example.com/spec/v2 😅
+[05/07/2024, 8:35:52 PM] Aarav: sending the doc 👍
+[05/07/2024, 8:39:43 PM] Aarav: the build is red again 🙏
+[05/07/2024, 8:48:28 PM] Meera: haha true 😂
+[05/07/2024, 8:56:11 PM] Meera: good catch
+[06/07/2024, 9:07:34 PM] Meera: lets sync at 4
+[06/07/2024, 9:08:36 PM] Meera: running 10 min late
+[06/07/2024, 9:14:25 PM] Aarav: the build is red again 😂
+[06/07/2024, 9:16:47 PM] Meera: sending the doc 😅
+[07/07/2024, 9:17:08 PM] Aarav: sending the doc
+[07/07/2024, 9:20:30 PM] Meera: that worked, thanks 😂
+[07/07/2024, 9:24:45 PM] Aarav: no idea honestly 🎉
+[07/07/2024, 9:28:47 PM] Meera: the metrics look off 🙏
+[07/07/2024, 9:30:35 PM] Meera: shipping the release now 😅
+[07/07/2024, 9:31:41 PM] Aarav: <Media omitted>
+[08/07/2024, 12:00:32 PM] Meera: that worked, thanks 🎉
+[08/07/2024, 12:07:15 PM] Meera: that worked, thanks 🎉
+[08/07/2024, 12:11:12 PM] Meera: the build is red again
+[09/07/2024, 8:36:07 PM] Meera: ok sounds good 😅
+[09/07/2024, 8:43:37 PM] Meera: sticker omitted
+[09/07/2024, 8:51:31 PM] Meera: haha true
+[09/07/2024, 8:54:41 PM] Meera: that worked, thanks 😂
+[09/07/2024, 9:01:11 PM] Meera: haha true 🎉
+[09/07/2024, 9:03:51 PM] Meera: lets park it for now
+[09/07/2024, 9:08:24 PM] Aarav: no idea honestly 🎉
+[10/07/2024, 10:16:53 PM] Meera: haha true 😅
+[10/07/2024, 10:25:07 PM] Meera: ok sounds good 🙏
+[10/07/2024, 10:26:42 PM] Aarav: lets sync at 4
+[10/07/2024, 10:33:44 PM] Meera: good catch
+[10/07/2024, 10:37:13 PM] Aarav: see https://docs.example.com/spec/v2 😅
+[11/07/2024, 8:18:36 PM] Aarav: shipping the release now 😂
+[11/07/2024, 8:25:50 PM] Aarav: the metrics look off 🎉
+[11/07/2024, 8:31:29 PM] Meera: that worked, thanks
+[11/07/2024, 8:35:58 PM] Aarav: sticker omitted
+[11/07/2024, 8:40:25 PM] Meera: that worked, thanks 😂
+[11/07/2024, 8:45:03 PM] Meera: the build is red again 🎉
+[12/07/2024, 12:12:27 PM] Meera: kya scene hai
+[12/07/2024, 12:17:23 PM] Meera: on my way 😂
+[12/07/2024, 12:19:23 PM] Aarav: see https://docs.example.com/spec/v2
+[12/07/2024, 12:24:19 PM] Meera: the metrics look off
+[12/07/2024, 12:29:22 PM] Aarav: lets park it for now 👍
+[13/07/2024, 8:28:41 PM] Meera: shipping the release now 🎉
+[13/07/2024, 8:32:16 PM] Meera: kal milte hai 😂
+[13/07/2024, 8:37:00 PM] Meera: shipping the release now
+[13/07/2024, 8:38:51 PM] Meera: can you review the PR when free 😂
+[13/07/2024, 8:41:44 PM] Aarav: lets sync at 4
+[13/07/2024, 8:48:32 PM] Aarav: on my way 😂
+[14/07/2024, 8:19:56 PM] Aarav: kya scene hai
+[14/07/2024, 8:26:59 PM] Meera: the metrics look off
+[14/07/2024, 8:35:25 PM] Aarav: haha true
+[14/07/2024, 8:41:28 PM] Meera: running 10 min late 🙏
+[19/07/2024, 9:24:37 PM] Meera: the build is red again
+[19/07/2024, 9:29:40 PM] Meera: deadline moved to friday 😅
+[20/07/2024, 4:03:31 PM] Aarav: can you review the PR when free 😂
+[20/07/2024, 4:12:25 PM] Meera: that worked, thanks 👍
+[20/07/2024, 4:20:53 PM] Meera: haha true 😅
+[20/07/2024, 4:22:54 PM] Aarav: see https://docs.example.com/spec/v2
+[20/07/2024, 4:30:58 PM] Meera: <Media omitted>
+[20/07/2024, 4:38:57 PM] Meera: sending the doc 🙏
+[20/07/2024, 4:43:00 PM] Meera: deadline moved to friday 😅
+[20/07/2024, 4:44:57 PM] Meera: that worked, thanks
+[21/07/2024, 12:25:01 PM] Aarav: yes please 😂
+[21/07/2024, 12:33:05 PM] Meera: kya scene hai
+[21/07/2024, 12:37:26 PM] Aarav: lets park it for now
+[21/07/2024, 12:39:36 PM] Aarav: the metrics look off
+[21/07/2024, 12:47:02 PM] Aarav: can you review the PR when free
+[21/07/2024, 12:55:55 PM] Meera: lets park it for now 🙏
+[22/07/2024, 3:04:26 PM] Aarav: done and merged 😂
+[22/07/2024, 3:10:50 PM] Meera: no idea honestly 😂
+[22/07/2024, 3:13:16 PM] Meera: haha true 🎉
+[22/07/2024, 3:15:21 PM] Aarav: deadline moved to friday 😅
+[22/07/2024, 3:17:43 PM] Meera: sending the doc 🙏
+[23/07/2024, 10:32:46 PM] Aarav: sending the doc 👍
+[23/07/2024, 10:38:27 PM] Aarav: done and merged 👍
+[23/07/2024, 10:43:21 PM] Aarav: running 10 min late 👍
+[23/07/2024, 10:46:49 PM] Aarav: on my way 👍
+[23/07/2024, 10:48:40 PM] Meera: deadline moved to friday 🎉
+[23/07/2024, 10:51:14 PM] Meera: sending the doc 🙏
+[23/07/2024, 10:55:37 PM] Aarav: lets sync at 4 😅
+[23/07/2024, 11:01:11 PM] Aarav: yes please 😂
+[23/07/2024, 11:04:02 PM] Meera: <Media omitted>
+[24/07/2024, 8:29:36 PM] Meera: no idea honestly 👍
+[24/07/2024, 8:31:12 PM] Meera: ok sounds good 😂
+[25/07/2024, 10:37:15 PM] Meera: sending the doc
+[25/07/2024, 10:44:19 PM] Meera: yes please 😂
+[25/07/2024, 10:46:22 PM] Meera: haha true 🎉
+[25/07/2024, 10:48:17 PM] Meera: kya scene hai
+[26/07/2024, 9:23:48 PM] Aarav: sending the doc
+[26/07/2024, 9:30:14 PM] Meera: kal milte hai 😂
+[26/07/2024, 9:32:37 PM] Meera: <Media omitted>
+[26/07/2024, 9:40:09 PM] Meera: <Media omitted>
+[27/07/2024, 9:37:04 AM] Meera: lets sync at 4 😂
+[27/07/2024, 9:44:27 AM] Meera: haha true 😅
+[27/07/2024, 9:49:40 AM] Meera: lets park it for now 🎉
+[27/07/2024, 9:54:37 AM] Aarav: the build is red again 🙏
+[01/08/2024, 8:17:07 PM] Meera: kya scene hai 🙏
+[01/08/2024, 8:23:18 PM] Aarav: deadline moved to friday 🙏
+[01/08/2024, 8:30:24 PM] Meera: image omitted
+[01/08/2024, 8:39:06 PM] Aarav: yes please 😂
+[01/08/2024, 8:42:57 PM] Aarav: lets sync at 4 😂
+[01/08/2024, 8:48:51 PM] Aarav: done and merged 🙏
+[01/08/2024, 8:55:23 PM] Meera: the build is red again 😅
+[02/08/2024, 10:30:44 PM] Aarav: done and merged 🙏
+[02/08/2024, 10:35:08 PM] Aarav: can you review the PR when free 😂
+[05/08/2024, 10:26:27 AM] Meera: can you review the PR when free
+[05/08/2024, 10:32:11 AM] Meera: good catch 🎉
+[05/08/2024, 10:40:07 AM] Meera: the metrics look off 😂
+[05/08/2024, 10:48:30 AM] Aarav: haha true
+[05/08/2024, 10:56:09 AM] Meera: deadline moved to friday 👍
+[05/08/2024, 11:00:08 AM] Aarav: on my way
+[06/08/2024, 2:25:21 PM] Aarav: done and merged 👍
+[06/08/2024, 2:32:36 PM] Aarav: on my way 🙏
+[06/08/2024, 2:39:43 PM] Aarav: yes please
+[06/08/2024, 2:42:14 PM] Aarav: can you review the PR when free 😅
+[06/08/2024, 2:45:48 PM] Meera: ok sounds good 👍
+[06/08/2024, 2:48:42 PM] Meera: good catch 👍
+[06/08/2024, 2:56:53 PM] Meera: that worked, thanks 😂
+[06/08/2024, 3:02:53 PM] Aarav: kya scene hai 👍
+[11/08/2024, 9:05:55 AM] Meera: the metrics look off 😅
+[11/08/2024, 9:09:10 AM] Meera: sticker omitted
+[11/08/2024, 9:12:11 AM] Meera: deadline moved to friday 😅
+[11/08/2024, 9:13:38 AM] Aarav: running 10 min late
+[11/08/2024, 9:20:09 AM] Aarav: see https://docs.example.com/spec/v2 🙏
+[11/08/2024, 9:26:03 AM] Aarav: the build is red again 😅
+[11/08/2024, 9:31:49 AM] Meera: kal milte hai 😅
+[11/08/2024, 9:33:32 AM] Aarav: running 10 min late 😅
+[12/08/2024, 3:32:19 PM] Meera: yes please 👍
+[12/08/2024, 3:35:19 PM] Aarav: sticker omitted
+[12/08/2024, 3:42:33 PM] Aarav: shipping the release now 😅
+[12/08/2024, 3:43:43 PM] Aarav: deadline moved to friday 🎉
+[12/08/2024, 3:50:53 PM] Meera: kya scene hai 🎉
+[12/08/2024, 3:59:32 PM] Meera: that worked, thanks 😅
+[12/08/2024, 4:05:12 PM] Aarav: lets park it for now 👍
+[12/08/2024, 4:14:01 PM] Meera: kal milte hai 🎉
+[12/08/2024, 4:21:39 PM] Aarav: the metrics look off
+[13/08/2024, 9:24:09 PM] Meera: image omitted
+[13/08/2024, 9:32:54 PM] Meera: running 10 min late 😅
+[13/08/2024, 9:39:46 PM] Meera: see https://docs.example.com/spec/v2
+[13/08/2024, 9:44:53 PM] Aarav: lets sync at 4 👍
+[13/08/2024, 9:47:29 PM] Aarav: can you review the PR when free 😅
+[13/08/2024, 9:50:07 PM] Meera: that worked, thanks 😂
+[14/08/2024, 10:14:37 PM] Aarav: lets park it for now 🙏
+[14/08/2024, 10:22:20 PM] Meera: shipping the release now
+[14/08/2024, 10:26:57 PM] Aarav: done and merged 😅
+[14/08/2024, 10:35:40 PM] Meera: running 10 min late 🙏
+[14/08/2024, 10:39:55 PM] Aarav: the metrics look off 🎉
+[14/08/2024, 10:41:29 PM] Meera: kal milte hai
+[14/08/2024, 10:48:35 PM] Aarav: that worked, thanks 😅
+[14/08/2024, 10:50:14 PM] Aarav: sending the doc 🙏
+[16/08/2024, 10:31:34 PM] Meera: sending the doc 🎉
+[16/08/2024, 10:39:45 PM] Meera: done and merged
+[17/08/2024, 8:00:26 PM] Aarav: kya scene hai 👍
+[17/08/2024, 8:06:27 PM] Meera: on my way
+[21/08/2024, 9:13:27 AM] Meera: on my way 🎉
+[21/08/2024, 9:19:32 AM] Aarav: good catch 🙏
+[21/08/2024, 9:24:55 AM] Aarav: the build is red again 🙏
+[21/08/2024, 9:28:23 AM] Meera: shipping the release now 😅
+[22/08/2024, 10:10:51 PM] Aarav: ok sounds good 👍
+[22/08/2024, 10:15:22 PM] Meera: running 10 min late
+[22/08/2024, 10:23:26 PM] Aarav: kya scene hai 😅
+[22/08/2024, 10:28:25 PM] Meera: done and merged 🎉
+[22/08/2024, 10:29:42 PM] Meera: lets sync at 4
+[22/08/2024, 10:31:43 PM] Meera: can you review the PR when free 🙏
+[22/08/2024, 10:32:49 PM] Aarav: that worked, thanks 🙏
+[23/08/2024, 9:36:14 PM] Aarav: see https://docs.example.com/spec/v2 😂
+[23/08/2024, 9:39:21 PM] Aarav: kal milte hai 👍
+[23/08/2024, 9:47:14 PM] Aarav: no idea honestly 🎉
+[23/08/2024, 9:49:17 PM] Meera: ok sounds good 👍
+[24/08/2024, 3:30:38 PM] Aarav: kya scene hai 😂
+[24/08/2024, 3:37:15 PM] Meera: the metrics look off 😂
+[25/08/2024, 2:32:37 PM] Aarav: good catch 😅
+[25/08/2024, 2:35:35 PM] Meera: lets park it for now
+[25/08/2024, 2:40:57 PM] Aarav: deadline moved to friday 🎉
+[25/08/2024, 2:42:10 PM] Aarav: lets park it for now 😅
+[25/08/2024, 2:47:12 PM] Meera: <Media omitted>
+[30/08/2024, 8:35:59 PM] Meera: good catch
+[30/08/2024, 8:43:00 PM] Meera: the build is red again 😂
+[30/08/2024, 8:48:24 PM] Meera: <Media omitted>
+[31/08/2024, 9:34:03 PM] Aarav: sticker omitted
+[31/08/2024, 9:40:08 PM] Aarav: the metrics look off 🎉
+[31/08/2024, 9:42:14 PM] Aarav: image omitted
+[31/08/2024, 9:44:55 PM] Aarav: deadline moved to friday 🙏
+[04/09/2024, 10:15:39 AM] Aarav: good catch
+[04/09/2024, 10:18:52 AM] Meera: kya scene hai
+[04/09/2024, 10:27:44 AM] Aarav: sending the doc 😅
+[05/09/2024, 8:38:49 PM] Aarav: lets park it for now 😂
+[05/09/2024, 8:44:13 PM] Meera: yes please 🎉
+[05/09/2024, 8:50:26 PM] Meera: sending the doc
+[05/09/2024, 8:54:41 PM] Meera: sending the doc
+[05/09/2024, 9:02:16 PM] Meera: the metrics look off 🙏
+[06/09/2024, 3:14:14 PM] Aarav: sending the doc
+[06/09/2024, 3:20:14 PM] Meera: running 10 min late 😂
+[06/09/2024, 3:23:13 PM] Aarav: good catch
+[06/09/2024, 3:27:08 PM] Aarav: the build is red again 👍
+[06/09/2024, 3:28:49 PM] Meera: kal milte hai 😂
+[06/09/2024, 3:37:42 PM] Aarav: ok sounds good 🙏
+[07/09/2024, 12:28:50 PM] Meera: on my way 😂
+[07/09/2024, 12:30:08 PM] Meera: good catch
+[07/09/2024, 12:36:21 PM] Meera: done and merged 🎉
+[07/09/2024, 12:39:51 PM] Meera: haha true
+[07/09/2024, 12:42:09 PM] Meera: that worked, thanks 😂
+[08/09/2024, 9:25:57 PM] Aarav: the build is red again 🙏
+[08/09/2024, 9:33:59 PM] Meera: that worked, thanks
+[08/09/2024, 9:37:01 PM] Aarav: can you review the PR when free 🎉
+[08/09/2024, 9:45:58 PM] Aarav: sticker omitted
+[08/09/2024, 9:52:03 PM] Aarav: lets park it for now 😂
+[08/09/2024, 9:55:17 PM] Meera: can you review the PR when free 👍
+[09/09/2024, 11:16:44 AM] Meera: lets park it for now 😅
+[09/09/2024, 11:24:14 AM] Meera: the build is red again 😂
+[09/09/2024, 11:32:50 AM] Aarav: sending the doc 👍
+[09/09/2024, 11:40:58 AM] Meera: haha true 😂
+[09/09/2024, 11:48:55 AM] Aarav: kal milte hai
+[09/09/2024, 11:52:06 AM] Aarav: shipping the release now
+[14/09/2024, 10:14:53 AM] Aarav: good catch 🎉
+[14/09/2024, 10:22:40 AM] Aarav: lets sync at 4 😂
+[14/09/2024, 10:30:18 AM] Meera: good catch
+[14/09/2024, 10:34:19 AM] Meera: the build is red again 😅
+[14/09/2024, 10:42:25 AM] Meera: kya scene hai
+[15/09/2024, 9:12:30 PM] Meera: the build is red again
+[15/09/2024, 9:20:27 PM] Meera: the metrics look off 🙏
+[15/09/2024, 9:25:21 PM] Aarav: yes please
+[15/09/2024, 9:27:40 PM] Aarav: on my way
+[16/09/2024, 12:00:37 PM] Meera: the build is red again
+[16/09/2024, 12:08:46 PM] Aarav: no idea honestly 🎉
+[16/09/2024, 12:14:43 PM] Meera: the metrics look off 🎉
+[16/09/2024, 12:19:41 PM] Meera: lets sync at 4 😅
+[16/09/2024, 12:23:13 PM] Aarav: image omitted
+[16/09/2024, 12:29:28 PM] Meera: see https://docs.example.com/spec/v2
+[16/09/2024, 12:32:04 PM] Meera: lets sync at 4
+[16/09/2024, 12:40:21 PM] Aarav: lets sync at 4 🙏
+[17/09/2024, 3:11:56 PM] Aarav: shipping the release now
+[17/09/2024, 3:18:37 PM] Aarav: kal milte hai 😅
+[17/09/2024, 3:26:42 PM] Meera: good catch 😅
+[17/09/2024, 3:33:32 PM] Aarav: on my way 🎉
+[17/09/2024, 3:36:55 PM] Aarav: deadline moved to friday
+[17/09/2024, 3:42:04 PM] Aarav: done and merged
+[17/09/2024, 3:44:20 PM] Aarav: see https://docs.example.com/spec/v2 🙏
+[17/09/2024, 3:50:14 PM] Meera: sending the doc 🙏
+[18/09/2024, 3:39:18 PM] Meera: done and merged 👍
+[18/09/2024, 3:48:06 PM] Meera: deadline moved to friday 🙏
+[18/09/2024, 3:54:18 PM] Meera: see https://docs.example.com/spec/v2 😅
+[18/09/2024, 4:03:01 PM] Meera: running 10 min late 🙏
+[19/09/2024, 2:22:51 PM] Aarav: done and merged
+[19/09/2024, 2:24:12 PM] Meera: shipping the release now 👍
+[19/09/2024, 2:29:51 PM] Aarav: deadline moved to friday 😅
+[20/09/2024, 10:18:43 PM] Aarav: kya scene hai 🎉
+[20/09/2024, 10:21:23 PM] Meera: sending the doc
+[20/09/2024, 10:25:25 PM] Meera: lets sync at 4 😂
+[20/09/2024, 10:29:57 PM] Aarav: on my way 😅
+[20/09/2024, 10:31:37 PM] Aarav: ok sounds good
+[25/09/2024, 9:24:03 PM] Meera: that worked, thanks
+[25/09/2024, 9:28:15 PM] Aarav: done and merged 🙏
+[25/09/2024, 9:33:56 PM] Aarav: kal milte hai
+[25/09/2024, 9:40:32 PM] Aarav: the build is red again 👍
+[25/09/2024, 9:46:16 PM] Meera: on my way 👍
+[25/09/2024, 9:53:57 PM] Aarav: lets sync at 4 😂
+[25/09/2024, 9:58:57 PM] Meera: the metrics look off 😂
+[25/09/2024, 10:00:30 PM] Aarav: the build is red again 🎉
+[26/09/2024, 2:18:12 PM] Aarav: kya scene hai 🙏
+[26/09/2024, 2:27:08 PM] Meera: no idea honestly 🙏
+[26/09/2024, 2:31:12 PM] Meera: <Media omitted>
+[26/09/2024, 2:36:15 PM] Meera: shipping the release now 😂
+[26/09/2024, 2:42:40 PM] Aarav: deadline moved to friday 🙏
+[26/09/2024, 2:49:30 PM] Aarav: on my way 🎉
+[26/09/2024, 2:58:05 PM] Aarav: image omitted
+[26/09/2024, 3:01:18 PM] Meera: that worked, thanks 👍
+[26/09/2024, 3:08:26 PM] Meera: the build is red again 🎉
+[27/09/2024, 10:01:09 PM] Aarav: lets sync at 4
+[27/09/2024, 10:04:36 PM] Aarav: yes please 🎉
+[27/09/2024, 10:11:09 PM] Meera: good catch
+[27/09/2024, 10:16:23 PM] Aarav: lets sync at 4 🎉
+[27/09/2024, 10:22:53 PM] Aarav: sticker omitted
+[27/09/2024, 10:31:25 PM] Aarav: sending the doc
+[27/09/2024, 10:34:32 PM] Aarav: deadline moved to friday
+[27/09/2024, 10:42:31 PM] Aarav: shipping the release now
+[28/09/2024, 10:12:41 AM] Meera: lets sync at 4
+[28/09/2024, 10:14:30 AM] Aarav: done and merged
+[29/09/2024, 3:14:16 PM] Meera: kya scene hai 🙏
+[29/09/2024, 3:17:52 PM] Aarav: see https://docs.example.com/spec/v2 😂
+[29/09/2024, 3:26:33 PM] Aarav: good catch 🙏
+[29/09/2024, 3:31:23 PM] Meera: done and merged
+[29/09/2024, 3:36:55 PM] Aarav: running 10 min late
+[29/09/2024, 3:43:27 PM] Meera: good catch 😅
+[29/09/2024, 3:49:19 PM] Meera: lets sync at 4 🎉
+[29/09/2024, 3:54:41 PM] Aarav: lets park it for now 🙏
+[30/09/2024, 9:20:55 PM] Meera: that worked, thanks 😂
+[30/09/2024, 9:28:55 PM] Meera: haha true 👍
+[30/09/2024, 9:30:20 PM] Aarav: running 10 min late 😅
+[01/10/2024, 8:24:19 PM] Aarav: yes please 😅
+[01/10/2024, 8:27:27 PM] Meera: sending the doc
+[01/10/2024, 8:35:07 PM] Aarav: deadline moved to friday
+[01/10/2024, 8:42:50 PM] Aarav: done and merged
+[01/10/2024, 8:47:17 PM] Meera: running 10 min late 🎉
+[01/10/2024, 8:52:14 PM] Aarav: on my way
+[02/10/2024, 3:28:54 PM] Meera: see https://docs.example.com/spec/v2
+[02/10/2024, 3:30:33 PM] Meera: haha true 🙏
+[02/10/2024, 3:37:21 PM] Aarav: running 10 min late
+[02/10/2024, 3:44:41 PM] Meera: the metrics look off
+[02/10/2024, 3:50:52 PM] Meera: on my way
+[02/10/2024, 3:57:18 PM] Aarav: kya scene hai 😅
+[02/10/2024, 3:59:20 PM] Meera: the build is red again 🙏
+[02/10/2024, 4:04:55 PM] Aarav: sending the doc
+[02/10/2024, 4:07:57 PM] Aarav: running 10 min late
+[03/10/2024, 8:10:59 PM] Meera: on my way 😂
+[03/10/2024, 8:12:40 PM] Meera: ok sounds good 🎉
+[03/10/2024, 8:14:02 PM] Meera: running 10 min late
+[03/10/2024, 8:22:44 PM] Meera: deadline moved to friday
+[04/10/2024, 10:32:15 PM] Meera: see https://docs.example.com/spec/v2
+[04/10/2024, 10:34:39 PM] Meera: sending the doc
+[04/10/2024, 10:40:05 PM] Meera: deadline moved to friday 🎉
+[04/10/2024, 10:46:54 PM] Aarav: sending the doc 👍
+[04/10/2024, 10:53:00 PM] Meera: <Media omitted>
+[04/10/2024, 10:55:20 PM] Aarav: ok sounds good 😅
+[05/10/2024, 10:35:58 PM] Aarav: haha true 😂
+[05/10/2024, 10:41:24 PM] Aarav: shipping the release now 😅
+[05/10/2024, 10:43:57 PM] Aarav: deadline moved to friday 😅
+[05/10/2024, 10:52:50 PM] Aarav: yes please
+[05/10/2024, 11:01:24 PM] Aarav: kal milte hai 😂
+[06/10/2024, 10:13:06 AM] Meera: can you review the PR when free 🙏
+[06/10/2024, 10:16:16 AM] Meera: see https://docs.example.com/spec/v2 👍
+[06/10/2024, 10:22:15 AM] Meera: the build is red again 🎉
+[06/10/2024, 10:30:39 AM] Meera: yes please
+[07/10/2024, 10:05:10 PM] Meera: haha true 🎉
+[07/10/2024, 10:08:51 PM] Aarav: kya scene hai 😅
+[07/10/2024, 10:10:19 PM] Aarav: good catch
+[07/10/2024, 10:18:23 PM] Meera: that worked, thanks
+[07/10/2024, 10:19:35 PM] Meera: ok sounds good
+[07/10/2024, 10:24:27 PM] Meera: lets park it for now
+[08/10/2024, 10:13:43 PM] Aarav: see https://docs.example.com/spec/v2 👍
+[08/10/2024, 10:15:52 PM] Aarav: done and merged
+[08/10/2024, 10:21:25 PM] Aarav: lets park it for now 🎉
+[08/10/2024, 10:24:13 PM] Aarav: lets park it for now
+[08/10/2024, 10:30:52 PM] Meera: kya scene hai 😅
+[08/10/2024, 10:38:41 PM] Meera: yes please
+[13/10/2024, 8:05:44 PM] Meera: deadline moved to friday 👍
+[13/10/2024, 8:07:19 PM] Aarav: on my way 🙏
+[13/10/2024, 8:15:21 PM] Aarav: no idea honestly 🙏
+[13/10/2024, 8:16:43 PM] Aarav: lets sync at 4 😅
+[13/10/2024, 8:21:22 PM] Meera: can you review the PR when free 🙏
+[14/10/2024, 11:20:55 AM] Meera: kya scene hai
+[14/10/2024, 11:28:33 AM] Meera: on my way 👍
+[14/10/2024, 11:37:11 AM] Meera: haha true 😅
+[14/10/2024, 11:43:06 AM] Meera: good catch
+[15/10/2024, 12:23:54 PM] Aarav: ok sounds good
+[15/10/2024, 12:25:54 PM] Aarav: yes please
+[16/10/2024, 3:24:16 PM] Meera: sending the doc
+[16/10/2024, 3:27:10 PM] Meera: running 10 min late 😂
+[17/10/2024, 11:17:28 AM] Meera: see https://docs.example.com/spec/v2 👍
+[17/10/2024, 11:23:34 AM] Meera: no idea honestly 🙏
+[17/10/2024, 11:27:20 AM] Meera: yes please 😅
+[17/10/2024, 11:34:43 AM] Meera: the metrics look off 😅
+[17/10/2024, 11:38:50 AM] Aarav: kya scene hai
+[17/10/2024, 11:44:20 AM] Meera: see https://docs.example.com/spec/v2
+[17/10/2024, 11:52:43 AM] Meera: kal milte hai 🎉
+[17/10/2024, 12:00:04 PM] Aarav: <Media omitted>
+[17/10/2024, 12:02:38 PM] Meera: sending the doc 🙏
+[18/10/2024, 10:11:46 PM] Aarav: lets park it for now 😂
+[18/10/2024, 10:15:29 PM] Aarav: haha true 👍
+[18/10/2024, 10:22:31 PM] Aarav: on my way
+[18/10/2024, 10:26:21 PM] Meera: shipping the release now 🎉
+[18/10/2024, 10:30:12 PM] Aarav: that worked, thanks
+[18/10/2024, 10:36:55 PM] Aarav: deadline moved to friday 🎉
+[19/10/2024, 9:20:00 AM] Aarav: good catch 👍
+[19/10/2024, 9:21:09 AM] Meera: lets park it for now 🎉
+[20/10/2024, 10:35:43 PM] Meera: can you review the PR when free 🎉
+[20/10/2024, 10:41:21 PM] Aarav: kya scene hai
+[20/10/2024, 10:48:58 PM] Aarav: yes please 😂
+[20/10/2024, 10:53:25 PM] Meera: the build is red again 👍
+[20/10/2024, 10:57:42 PM] Meera: sticker omitted
+[20/10/2024, 11:00:28 PM] Meera: the build is red again
+[23/10/2024, 3:29:19 PM] Aarav: lets park it for now 😅
+[23/10/2024, 3:30:42 PM] Meera: lets park it for now 🎉
+[23/10/2024, 3:38:54 PM] Meera: deadline moved to friday 😅
+[23/10/2024, 3:44:24 PM] Meera: no idea honestly 😂
+[23/10/2024, 3:48:56 PM] Meera: kal milte hai
+[26/10/2024, 9:29:27 AM] Meera: the build is red again 🎉
+[26/10/2024, 9:33:23 AM] Meera: ok sounds good 🎉
+[26/10/2024, 9:39:22 AM] Aarav: kya scene hai 🎉
+[27/10/2024, 9:39:02 AM] Aarav: deadline moved to friday
+[27/10/2024, 9:41:44 AM] Meera: ok sounds good 🙏
+[28/10/2024, 9:13:40 PM] Meera: good catch 🙏
+[28/10/2024, 9:19:02 PM] Meera: haha true 😂
+[28/10/2024, 9:21:05 PM] Meera: see https://docs.example.com/spec/v2 😅
+[28/10/2024, 9:24:14 PM] Aarav: lets park it for now 🙏
+[28/10/2024, 9:27:19 PM] Meera: deadline moved to friday 👍
+[28/10/2024, 9:30:26 PM] Meera: done and merged
+[28/10/2024, 9:39:12 PM] Aarav: see https://docs.example.com/spec/v2
+[28/10/2024, 9:41:10 PM] Meera: image omitted
+[28/10/2024, 9:42:52 PM] Aarav: good catch 😅
+[29/10/2024, 10:22:58 AM] Meera: lets park it for now 😂
+[29/10/2024, 10:24:39 AM] Meera: sticker omitted
+[29/10/2024, 10:29:13 AM] Meera: lets sync at 4 🎉
+[29/10/2024, 10:32:06 AM] Aarav: lets sync at 4 👍
+[29/10/2024, 10:39:02 AM] Meera: sticker omitted
+[29/10/2024, 10:43:36 AM] Meera: sending the doc 😅
+[29/10/2024, 10:50:47 AM] Meera: shipping the release now 👍
+[29/10/2024, 10:53:40 AM] Meera: lets park it for now 😅
+[29/10/2024, 10:57:15 AM] Meera: see https://docs.example.com/spec/v2 🙏
+[02/11/2024, 8:17:37 PM] Aarav: done and merged 😂
+[02/11/2024, 8:19:56 PM] Meera: sending the doc 😂
+[02/11/2024, 8:26:23 PM] Aarav: the build is red again
+[02/11/2024, 8:34:46 PM] Meera: kal milte hai
+[02/11/2024, 8:42:45 PM] Aarav: done and merged
+[02/11/2024, 8:49:18 PM] Aarav: deadline moved to friday 😂
+[02/11/2024, 8:50:36 PM] Aarav: ok sounds good 🙏
+[03/11/2024, 10:11:46 PM] Aarav: image omitted
+[03/11/2024, 10:13:40 PM] Aarav: deadline moved to friday 🙏
+[03/11/2024, 10:17:26 PM] Meera: can you review the PR when free 😅
+[03/11/2024, 10:19:24 PM] Meera: yes please 😅
+[03/11/2024, 10:26:04 PM] Meera: running 10 min late 😂
+[03/11/2024, 10:33:27 PM] Aarav: <Media omitted>
+[03/11/2024, 10:37:23 PM] Aarav: running 10 min late 😂
+[03/11/2024, 10:41:24 PM] Meera: see https://docs.example.com/spec/v2
+[04/11/2024, 12:05:05 PM] Aarav: no idea honestly 🎉
+[04/11/2024, 12:13:53 PM] Aarav: the metrics look off 🎉
+[04/11/2024, 12:15:02 PM] Aarav: no idea honestly 😅
+[04/11/2024, 12:16:52 PM] Meera: no idea honestly 🎉
+[04/11/2024, 12:21:06 PM] Meera: the metrics look off 👍
+[04/11/2024, 12:28:00 PM] Meera: that worked, thanks
+[04/11/2024, 12:31:18 PM] Aarav: ok sounds good
+[04/11/2024, 12:33:42 PM] Aarav: yes please 😅
+[05/11/2024, 11:26:25 AM] Meera: <Media omitted>
+[05/11/2024, 11:28:40 AM] Meera: yes please 😅
+[05/11/2024, 11:30:29 AM] Aarav: sending the doc
+[05/11/2024, 11:37:12 AM] Meera: the build is red again
+[05/11/2024, 11:44:52 AM] Aarav: kal milte hai 😅
+[05/11/2024, 11:52:07 AM] Aarav: no idea honestly 🙏
+[05/11/2024, 12:00:35 PM] Aarav: yes please 😂
+[05/11/2024, 12:01:49 PM] Aarav: good catch 👍
+[05/11/2024, 12:10:06 PM] Meera: shipping the release now 😂
+[06/11/2024, 10:38:19 AM] Meera: lets park it for now 🎉
+[06/11/2024, 10:39:48 AM] Aarav: shipping the release now 🙏
+[06/11/2024, 10:48:27 AM] Meera: shipping the release now
+[07/11/2024, 9:04:10 PM] Meera: no idea honestly 😅
+[07/11/2024, 9:12:09 PM] Meera: on my way 🙏
+[08/11/2024, 8:32:45 PM] Aarav: lets sync at 4 😅
+[08/11/2024, 8:35:45 PM] Aarav: deadline moved to friday 🙏
