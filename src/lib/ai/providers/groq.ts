@@ -1,5 +1,5 @@
 import type { Digest } from '@/lib/digest';
-import { emptyUsage } from '../model';
+import { emptyUsage, type Pricing } from '../model';
 import { buildInlineContext, SYSTEM } from '../prompts/insights.v1';
 import { INSIGHTS_JSON_SCHEMA, insightsSchema } from '../schema';
 import { ProviderError, type ProviderInfo, type ProviderResult } from './types';
@@ -38,6 +38,20 @@ const MAX_COMPLETION_TOKENS = 6_000;
 
 /** Groq's free tier caps a single request well below the Anthropic path's ceiling. */
 const REQUEST_TIMEOUT_MS = 60_000;
+
+/**
+ * Groq list price for `openai/gpt-oss-120b`.
+ *
+ * Applies only to a visitor running on their own paid Groq account. A run on
+ * the free tier costs nothing, which is what the receipt reports for the
+ * shared path. Groq has no prompt cache, so those rates are zero.
+ */
+export const GROQ_PRICING: Pricing = {
+  inputPerMTok: 0.15,
+  outputPerMTok: 0.6,
+  cacheReadPerMTok: 0,
+  cacheWritePerMTok: 0,
+};
 
 export const GROQ_PROVIDER: ProviderInfo = {
   id: 'groq',

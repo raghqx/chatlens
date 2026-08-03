@@ -19,27 +19,42 @@ const CONFIDENCE_TONE: Record<string, string> = {
  */
 const resolve = (alias: string, aliases: AliasMap | null) => aliases?.toName[alias] ?? alias;
 
+/**
+ * What the run cost and how it got there.
+ *
+ * Rows are provider-specific. The Groq path has no effort setting, no tools and
+ * no prompt cache, so listing them as "n/a" and "0" reads like three things
+ * went wrong rather than three things that do not apply.
+ */
 function TraceReceipt({ trace }: { trace: NonNullable<InsightsState['trace']> }) {
+  const cost = trace.shared
+    ? 'free tier'
+    : `$${trace.estimatedCostUsd.toFixed(trace.estimatedCostUsd < 0.01 ? 4 : 3)}`;
+
   const rows: Array<[string, string]> = [
-    ['Provider', trace.shared ? `${trace.provider} (shared free tier)` : trace.provider],
+    ['Provider', trace.shared ? `${trace.provider} (shared)` : trace.provider],
     ['Model', trace.model],
-    ['Effort', trace.effort],
     ['Prompt', trace.promptId],
-    ['Turns', String(trace.turns)],
-    ['Tool calls', String(trace.toolCalls.length)],
     ['Input tokens', trace.usage.input.toLocaleString()],
     ['Output tokens', trace.usage.output.toLocaleString()],
-    ['Cache reads', trace.usage.cacheRead.toLocaleString()],
     ['Duration', `${(trace.durationMs / 1000).toFixed(1)}s`],
-    ['Est. cost', trace.shared ? 'free' : `$${trace.estimatedCostUsd.toFixed(4)}`],
+    ['Est. cost', cost],
   ];
+
+  // Only meaningful on the Anthropic path, which is the only one that has them.
+  if (trace.provider === 'anthropic') {
+    rows.splice(3, 0, ['Effort', trace.effort], ['Turns', String(trace.turns)]);
+    rows.splice(7, 0, ['Tool calls', String(trace.toolCalls.length)]);
+    if (trace.usage.cacheRead > 0) {
+      rows.push(['Cache reads', trace.usage.cacheRead.toLocaleString()]);
+    }
+  }
 
   return (
     <details className="mt-6 rounded-lg border border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-2.5">
       <summary className="cursor-pointer text-xs text-[var(--text-secondary)]">
         Run receipt &middot; {trace.usage.input.toLocaleString()} in /{' '}
-        {trace.usage.output.toLocaleString()} out &middot;{' '}
-        {trace.shared ? 'free tier' : `$${trace.estimatedCostUsd.toFixed(4)}`}
+        {trace.usage.output.toLocaleString()} out &middot; {cost}
       </summary>
       <dl className="mt-3 grid grid-cols-2 gap-x-6 gap-y-1.5 text-xs sm:grid-cols-3">
         {rows.map(([label, value]) => (
@@ -49,6 +64,13 @@ function TraceReceipt({ trace }: { trace: NonNullable<InsightsState['trace']> })
           </div>
         ))}
       </dl>
+      <p className="mt-3 border-t border-[var(--border)] pt-2.5 text-[11px] text-[var(--text-muted)]">
+        {trace.shared
+          ? 'Served by the shared free tier, so this run was billed to nobody.'
+          : trace.provider === 'groq'
+            ? 'Groq list price. Free on Groq\u2019s free tier, which is what a new key gets.'
+            : 'Billed to your Anthropic key at Claude Opus 5 rates.'}
+      </p>
     </details>
   );
 }

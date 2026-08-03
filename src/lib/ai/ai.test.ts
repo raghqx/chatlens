@@ -6,8 +6,10 @@ import type { ChatMessage } from '@/lib/parser';
 import { toStrictJsonSchema } from './json-schema';
 import { INSIGHTS_JSON_SCHEMA, insightsSchema } from './schema';
 import { executeTool, TOOLS } from './tools';
-import { addUsage, emptyUsage, estimateCostUsd } from './model';
+import { addUsage, ANTHROPIC_PRICING, emptyUsage, estimateCostUsd } from './model';
 import { buildOverview } from './prompts/insights.v1';
+import { GROQ_PRICING } from './providers/groq';
+import { buildTrace } from './trace';
 
 const messages: ChatMessage[] = Array.from({ length: 40 }, (_, i) => ({
   at: new Date(2024, 7, 1 + (i % 5), 9 + (i % 8), i % 60).getTime(),
@@ -176,10 +178,37 @@ describe('cost accounting', () => {
   it('prices a run from accumulated usage', () => {
     const usage = addUsage(emptyUsage(), { input: 1_000_000, output: 100_000 });
     // 1M input at $5 + 100k output at $25/M = $5.00 + $2.50
-    expect(estimateCostUsd(usage)).toBeCloseTo(7.5, 6);
+    expect(estimateCostUsd(usage, ANTHROPIC_PRICING)).toBeCloseTo(7.5, 6);
   });
 
   it('starts at zero', () => {
-    expect(estimateCostUsd(emptyUsage())).toBe(0);
+    expect(estimateCostUsd(emptyUsage(), ANTHROPIC_PRICING)).toBe(0);
+  });
+
+  // Regression: every run was priced with Anthropic rates regardless of who
+  // served it, so a free Groq reading reported $0.0656 instead of $0.0016.
+  it('prices a Groq run with Groq rates, not Anthropic ones', () => {
+    const usage = addUsage(emptyUsage(), { input: 1_670, output: 2_291 });
+    const groq = estimateCostUsd(usage, GROQ_PRICING);
+    const anthropic = estimateCostUsd(usage, ANTHROPIC_PRICING);
+
+    expect(groq).toBeCloseTo(1_670 * 0.15e-6 + 2_291 * 0.6e-6, 8);
+    expect(groq).toBeLessThan(anthropic / 10);
+  });
+
+  it('reports a shared free-tier run as costing nothing', () => {
+    const trace = buildTrace({
+      requestId: 'r',
+      startedAt: 0,
+      turns: 1,
+      toolCalls: [],
+      usage: addUsage(emptyUsage(), { input: 1_670, output: 2_291 }),
+      outcome: 'ok',
+      now: 5_000,
+      provider: 'groq',
+      shared: true,
+    });
+    expect(trace.estimatedCostUsd).toBe(0);
+    expect(trace.provider).toBe('groq');
   });
 });

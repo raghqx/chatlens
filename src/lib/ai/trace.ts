@@ -1,6 +1,7 @@
 import { DIGEST_VERSION } from '@/lib/digest';
-import { EFFORT, estimateCostUsd, MODEL, type TokenUsage } from './model';
+import { ANTHROPIC_PRICING, EFFORT, estimateCostUsd, MODEL, type TokenUsage } from './model';
 import { PROMPT_ID } from './prompts/insights.v1';
+import { GROQ_PRICING } from './providers/groq';
 import type { ProviderId } from './providers/types';
 
 /**
@@ -62,6 +63,10 @@ export function buildTrace(input: {
 }): RunTrace {
   const provider = input.provider ?? 'anthropic';
   const shared = input.shared ?? false;
+  // Price with the rates of the provider that actually ran it. A shared
+  // free-tier run is billed to nobody, so it is zero rather than list price.
+  const pricing = provider === 'groq' ? GROQ_PRICING : ANTHROPIC_PRICING;
+  const cost = shared ? 0 : estimateCostUsd(input.usage, pricing);
   return {
     requestId: input.requestId,
     promptId: PROMPT_ID,
@@ -73,7 +78,7 @@ export function buildTrace(input: {
     turns: input.turns,
     toolCalls: input.toolCalls,
     usage: input.usage,
-    estimatedCostUsd: shared ? 0 : Number(estimateCostUsd(input.usage).toFixed(6)),
+    estimatedCostUsd: Number(cost.toFixed(6)),
     durationMs: input.now - input.startedAt,
     outcome: input.outcome,
     ...(input.error ? { error: input.error } : {}),

@@ -25,14 +25,28 @@ export const MAX_TOKENS = 32_000;
 /** Hard stop on the tool loop, so a pathological run cannot bill forever. */
 export const MAX_TOOL_TURNS = 6;
 
-/** USD per million tokens, Claude Opus 5 first-party API rates. */
-export const PRICING = {
+/**
+ * USD per million tokens.
+ *
+ * Rates are per provider, and must stay that way: pricing a Groq run with
+ * Anthropic's rates overstated a free-tier reading by roughly 40x, which is
+ * exactly the kind of quiet wrongness a cost receipt exists to prevent.
+ */
+export interface Pricing {
+  inputPerMTok: number;
+  outputPerMTok: number;
+  cacheReadPerMTok: number;
+  cacheWritePerMTok: number;
+}
+
+/** Claude Opus 5, first-party API rates. */
+export const ANTHROPIC_PRICING: Pricing = {
   inputPerMTok: 5,
   outputPerMTok: 25,
   /** Cache reads bill at ~0.1x input; writes at ~1.25x. */
   cacheReadPerMTok: 0.5,
   cacheWritePerMTok: 6.25,
-} as const;
+};
 
 export interface TokenUsage {
   input: number;
@@ -41,12 +55,12 @@ export interface TokenUsage {
   cacheWrite: number;
 }
 
-export function estimateCostUsd(usage: TokenUsage): number {
+export function estimateCostUsd(usage: TokenUsage, pricing: Pricing): number {
   const perMillion =
-    usage.input * PRICING.inputPerMTok +
-    usage.output * PRICING.outputPerMTok +
-    usage.cacheRead * PRICING.cacheReadPerMTok +
-    usage.cacheWrite * PRICING.cacheWritePerMTok;
+    usage.input * pricing.inputPerMTok +
+    usage.output * pricing.outputPerMTok +
+    usage.cacheRead * pricing.cacheReadPerMTok +
+    usage.cacheWrite * pricing.cacheWritePerMTok;
   return perMillion / 1_000_000;
 }
 

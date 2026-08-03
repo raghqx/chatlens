@@ -1,6 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { runInsightsAgent } from '@/lib/ai/agent';
-import { estimateCostUsd } from '@/lib/ai/model';
+import { ANTHROPIC_PRICING, estimateCostUsd } from '@/lib/ai/model';
 import { PROMPT_ID } from '@/lib/ai/prompts/insights.v1';
 import { GOLDEN_CASES, runCase } from './cases';
 import { runChecks, type Check } from './checks';
@@ -44,7 +44,7 @@ async function evaluateCase(client: Anthropic, name: string, fixture: string): P
       checks: [],
       verdict: null,
       average: 0,
-      costUsd: estimateCostUsd(result.usage),
+      costUsd: estimateCostUsd(result.usage, ANTHROPIC_PRICING),
       durationMs: Date.now() - startedAt,
       toolCalls: result.toolCalls.map((t) => t.name),
       error: result.validationError ?? 'no output',
@@ -59,7 +59,7 @@ async function evaluateCase(client: Anthropic, name: string, fixture: string): P
     checks,
     verdict,
     average: averageScore(verdict),
-    costUsd: estimateCostUsd(result.usage),
+    costUsd: estimateCostUsd(result.usage, ANTHROPIC_PRICING),
     durationMs: Date.now() - startedAt,
     toolCalls: result.toolCalls.map((t) => t.name),
   };
