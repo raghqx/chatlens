@@ -139,10 +139,12 @@ function tokenize(
   const words: string[] = [];
   for (const message of messages) {
     if (MEDIA_PATTERN.test(message.message)) continue;
-    for (const token of message.message.toLowerCase().split(/\s+/)) {
+    // Strip URLs before tokenization so host fragments never enter the cloud.
+    const withoutUrls = message.message.replace(URL_PATTERN, " ");
+    for (const token of withoutUrls.toLowerCase().split(/\s+/)) {
       const cleaned = token.replace(/[^\p{L}\p{N}'’_-]/gu, "");
       if (!cleaned || stopWords.has(cleaned) || cleaned.length < 2) continue;
-      if (URL_PATTERN.test(cleaned)) continue;
+      if (/^https?/i.test(cleaned) || cleaned.includes("www")) continue;
       words.push(cleaned);
     }
   }
