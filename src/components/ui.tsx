@@ -106,6 +106,15 @@ export function Tooltip({ state }: { state: TooltipState | null }) {
   );
 }
 
+/**
+ * A labelled switch.
+ *
+ * Rendered as a switch rather than a bare checkbox because these control what
+ * leaves the device: a native checkbox at small sizes is genuinely ambiguous at
+ * a glance, and "is pseudonymisation on?" is not a question anyone should have
+ * to squint at. The underlying input stays a real checkbox for keyboard and
+ * screen-reader behaviour; only the presentation changes.
+ */
 export function Toggle({
   checked,
   onChange,
@@ -119,14 +128,29 @@ export function Toggle({
 }) {
   return (
     <label className="flex cursor-pointer items-start gap-3">
-      <input
-        type="checkbox"
-        checked={checked}
-        onChange={(e) => onChange(e.target.checked)}
-        className="mt-0.5 h-4 w-4 shrink-0 accent-[var(--series-1)]"
-      />
+      <span className="relative mt-0.5 inline-flex shrink-0">
+        <input
+          type="checkbox"
+          checked={checked}
+          onChange={(e) => onChange(e.target.checked)}
+          className="peer sr-only"
+        />
+        <span
+          aria-hidden
+          className="block h-5 w-9 rounded-full bg-[var(--axis)] transition-colors peer-checked:bg-[var(--series-1)] peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-[var(--series-1)]"
+        />
+        <span
+          aria-hidden
+          className="pointer-events-none absolute top-0.5 left-0.5 block h-4 w-4 rounded-full bg-white shadow-sm transition-transform peer-checked:translate-x-4"
+        />
+      </span>
       <span>
-        <span className="block text-sm text-[var(--text-primary)]">{label}</span>
+        <span className="block text-sm text-[var(--text-primary)]">
+          {label}
+          <span className="ml-2 text-[11px] text-[var(--text-muted)]">
+            {checked ? 'on' : 'off'}
+          </span>
+        </span>
         {description && (
           <span className="block text-xs text-[var(--text-secondary)]">{description}</span>
         )}
