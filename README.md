@@ -269,6 +269,13 @@ deficiency validator: worst adjacent separation 9.1 (light) / 8.4 (dark) on the
 OKLab×100 scale, against a target of 8. Identity is never carried by colour alone;
 the participant table doubles as the legend.
 
+**Why does light mode win over the OS setting?** The app defaults to light for
+everyone, including visitors whose system is set to dark, with a toggle that
+persists. This is a document you read rather than an editor you live in, and the
+charts were stepped against the light surface first. The dark palette is a
+selected second set of the same eight hues, re-validated against the dark
+surface — not an inversion.
+
 **Why `claude-opus-5` at `medium` effort?** The task is bounded — read an aggregate,
 write structured commentary — and lower effort holds quality well while roughly
 halving what a visitor pays on their own key. Both are single constants in

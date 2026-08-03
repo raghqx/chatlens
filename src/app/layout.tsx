@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import { DEFAULT_THEME, THEME_INIT_SCRIPT } from '@/lib/theme-mode';
 import './globals.css';
 
 /**
@@ -21,16 +22,22 @@ export const metadata: Metadata = {
   },
 };
 
+/** Matches the light surface, since light is the default the page renders in. */
 export const viewport: Viewport = {
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#f9f9f7' },
-    { media: '(prefers-color-scheme: dark)', color: '#0d0d0d' },
-  ],
+  themeColor: '#f9f9f7',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en" className="h-full" data-theme={DEFAULT_THEME}>
+      <head>
+        {/*
+         * Resolve the stored theme before first paint. Rendered as a raw script
+         * rather than next/script so it is inline and blocking: deferring it by
+         * even one frame is exactly the white flash it exists to prevent.
+         */}
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
+      </head>
       <body className="flex min-h-full flex-col">{children}</body>
     </html>
   );

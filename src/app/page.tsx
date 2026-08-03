@@ -8,6 +8,7 @@ import { MonthlyTimeline } from '@/components/charts/MonthlyTimeline';
 import { Dropzone } from '@/components/Dropzone';
 import { InsightsPanel } from '@/components/InsightsPanel';
 import { ParticipantTable } from '@/components/ParticipantTable';
+import { ThemeToggle } from '@/components/ThemeToggle';
 import { Card, Notice, StatTile, Toggle, compact } from '@/components/ui';
 import { useInsights } from '@/lib/ai/use-insights';
 import type { Analysis } from '@/lib/analytics';
@@ -140,15 +141,18 @@ export default function Home() {
 
   return (
     <main className="mx-auto max-w-5xl px-5 py-10 sm:px-6 sm:py-14">
-      <header className="mb-8">
-        <h1 className="text-2xl font-semibold tracking-tight text-[var(--text-primary)]">
-          chatlens
-        </h1>
-        <p className="mt-1.5 max-w-2xl text-sm leading-relaxed text-[var(--text-secondary)]">
-          Conversation intelligence for WhatsApp exports. Parsing and every statistic below run in
-          your browser &mdash; your chat is never uploaded. The AI reading is opt-in, runs on your
-          own key, and only ever sees anonymised aggregates.
-        </p>
+      <header className="mb-8 flex items-start justify-between gap-4">
+        <div>
+          <h1 className="text-2xl font-semibold tracking-tight text-[var(--text-primary)]">
+            chatlens
+          </h1>
+          <p className="mt-1.5 max-w-2xl text-sm leading-relaxed text-[var(--text-secondary)]">
+            Conversation intelligence for WhatsApp exports. Parsing and every statistic below run
+            in your browser &mdash; your chat is never uploaded. The AI reading is opt-in, runs on
+            your own key, and only ever sees anonymised aggregates.
+          </p>
+        </div>
+        <ThemeToggle />
       </header>
 
       {!analysis && <Dropzone onFile={handleFile} busy={busy} />}
