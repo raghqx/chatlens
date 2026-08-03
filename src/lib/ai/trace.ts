@@ -1,6 +1,7 @@
 import { DIGEST_VERSION } from '@/lib/digest';
 import { EFFORT, estimateCostUsd, MODEL, type TokenUsage } from './model';
 import { PROMPT_ID } from './prompts/insights.v1';
+import type { ProviderId } from './providers/types';
 
 /**
  * One structured record per run.
@@ -24,6 +25,10 @@ export interface RunTrace {
   requestId: string;
   promptId: string;
   digestVersion: string;
+  /** Which backend served this run. */
+  provider: ProviderId;
+  /** True when the run was billed to the project's shared free tier. */
+  shared: boolean;
   model: string;
   effort: string;
   /** Model turns taken, including the final one that produced the JSON. */
@@ -50,17 +55,25 @@ export function buildTrace(input: {
   outcome: RunTrace['outcome'];
   error?: string;
   now: number;
+  provider?: ProviderId;
+  shared?: boolean;
+  model?: string;
+  effort?: string;
 }): RunTrace {
+  const provider = input.provider ?? 'anthropic';
+  const shared = input.shared ?? false;
   return {
     requestId: input.requestId,
     promptId: PROMPT_ID,
     digestVersion: DIGEST_VERSION,
-    model: MODEL,
-    effort: EFFORT,
+    provider,
+    shared,
+    model: input.model ?? MODEL,
+    effort: input.effort ?? EFFORT,
     turns: input.turns,
     toolCalls: input.toolCalls,
     usage: input.usage,
-    estimatedCostUsd: Number(estimateCostUsd(input.usage).toFixed(6)),
+    estimatedCostUsd: shared ? 0 : Number(estimateCostUsd(input.usage).toFixed(6)),
     durationMs: input.now - input.startedAt,
     outcome: input.outcome,
     ...(input.error ? { error: input.error } : {}),

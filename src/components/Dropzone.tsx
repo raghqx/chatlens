@@ -107,6 +107,28 @@ export function Dropzone({
     [onFile],
   );
 
+  /**
+   * Load the bundled sample export.
+   *
+   * A visitor evaluating this app almost certainly will not export their own
+   * chat just to look around, and a dashboard they cannot see is a dashboard
+   * that does not exist. The sample is synthetic, generated from a seeded PRNG,
+   * and is the same fixture the eval suite runs against.
+   */
+  const loadSample = useCallback(async () => {
+    setError(null);
+    setReading(true);
+    try {
+      const response = await fetch('/sample-chat.txt');
+      if (!response.ok) throw new Error('missing');
+      onFile('sample-chat.txt', await response.text());
+    } catch {
+      setError('Could not load the sample chat.');
+    } finally {
+      setReading(false);
+    }
+  }, [onFile]);
+
   const working = busy || reading;
 
   return (
@@ -146,6 +168,17 @@ export function Dropzone({
         className="hidden"
         onChange={(e) => void accept(e.target.files?.[0])}
       />
+
+      <div className="mt-3 flex items-center justify-center">
+        <button
+          type="button"
+          disabled={working}
+          onClick={() => void loadSample()}
+          className="text-xs text-[var(--text-secondary)] underline underline-offset-2 hover:text-[var(--text-primary)] disabled:opacity-50"
+        >
+          Or try it with a sample chat
+        </button>
+      </div>
 
       {error && <p className="mt-3 text-xs text-[var(--critical)]">{error}</p>}
 

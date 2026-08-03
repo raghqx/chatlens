@@ -2,20 +2,28 @@ import Anthropic from '@anthropic-ai/sdk';
 import { preflight, runInsightsAgent } from '@/lib/ai/agent';
 import { assertBodySize, BudgetError } from '@/lib/ai/budget';
 import { encodeEvent, type InsightsEvent } from '@/lib/ai/events';
-import { emptyUsage } from '@/lib/ai/model';
+import { EFFORT, emptyUsage, MODEL } from '@/lib/ai/model';
+import { GROQ_PROVIDER, isGroqConfigured, runGroqInsights } from '@/lib/ai/providers/groq';
+import { ProviderError, type ProviderResult } from '@/lib/ai/providers/types';
 import { buildTrace, logTrace, newRequestId } from '@/lib/ai/trace';
 import { digestSchema, type Digest } from '@/lib/digest';
 
 /**
- * Bring-your-own-key insight generation.
+ * Insight generation, over one of two backends.
  *
- * The key arrives per request in an `Authorization` header, builds a client for
- * that request only, and is never logged, persisted, or attached to the trace.
- * There is no server-side key and no database.
+ * **With a key** (`Authorization: Bearer sk-ant-...`) the run goes to Claude
+ * Opus 5 on the visitor's own key: streaming, tool calling, nothing stored. The
+ * key is used to build a client for that request only and is never logged,
+ * persisted, or attached to the trace.
  *
- * This handler is deliberately thin: validate, budget, adapt the agent's events
- * onto an SSE stream, log a trace. The reasoning lives in `lib/ai/agent`, which
- * is what the eval harness exercises.
+ * **Without a key** the run goes to a shared free tier on the project's Groq
+ * key. That path is genuinely different — Groq cannot combine structured
+ * outputs with tools or streaming — so it inlines the digest into one
+ * non-streaming request. It is rate-limited by the provider and shared by every
+ * visitor, so it is best-effort by design.
+ *
+ * Either way the only thing sent is the anonymised digest, and the UI states
+ * which provider will receive it before anything leaves the browser.
  */
 
 export const runtime = 'nodejs';
@@ -46,6 +54,7 @@ function json(status: number, code: string, message: string): Response {
 /** Map an upstream failure onto a response the UI can explain to a person. */
 function upstreamError(error: unknown): Response | null {
   if (error instanceof BudgetError) return json(error.status, error.code, error.message);
+  if (error instanceof ProviderError) return json(error.status, error.code, error.message);
   if (error instanceof Anthropic.AuthenticationError) {
     return json(401, 'invalid_api_key', 'Anthropic rejected that API key.');
   }
@@ -61,18 +70,7 @@ function upstreamError(error: unknown): Response | null {
   return null;
 }
 
-async function readRequest(
-  request: Request,
-): Promise<{ apiKey: string; digest: Digest } | Response> {
-  const apiKey = readBearer(request.headers.get('authorization'));
-  if (!apiKey) {
-    return json(
-      401,
-      'missing_api_key',
-      'Add your Anthropic API key. It is sent only with this request and never stored.',
-    );
-  }
-
+async function readDigest(request: Request): Promise<Digest | Response> {
   let body: string;
   try {
     body = await request.text();
@@ -97,12 +95,12 @@ async function readRequest(
       `Digest failed validation at ${issue?.path.join('.') || 'root'}: ${issue?.message ?? 'unknown'}`,
     );
   }
-
-  return { apiKey, digest: result.data };
+  return result.data;
 }
 
 /** Plain-language failure text for an error raised mid-stream. */
 function describeRunFailure(error: unknown): string {
+  if (error instanceof ProviderError) return error.message;
   if (error instanceof Anthropic.AuthenticationError) return 'Anthropic rejected that API key.';
   if (error instanceof Anthropic.RateLimitError) {
     return 'Anthropic rate-limited this key. Try again shortly.';
@@ -115,17 +113,30 @@ export async function POST(request: Request): Promise<Response> {
   const requestId = newRequestId();
   const startedAt = Date.now();
 
-  const input = await readRequest(request);
-  if (input instanceof Response) return input;
+  const apiKey = readBearer(request.headers.get('authorization'));
+  const useFreeTier = !apiKey;
 
-  const client = new Anthropic({ apiKey: input.apiKey, maxRetries: 1 });
+  if (useFreeTier && !isGroqConfigured()) {
+    return json(
+      401,
+      'missing_api_key',
+      'This deployment has no free tier configured. Add your Anthropic API key above; it is sent only with this request and never stored.',
+    );
+  }
 
-  // Count the prompt before spending on it; a bad key also surfaces here,
-  // as a clean JSON error rather than an error buried inside the stream.
-  try {
-    await preflight(client, input.digest);
-  } catch (error) {
-    return upstreamError(error) ?? json(502, 'preflight_failed', 'Could not start the run.');
+  const digest = await readDigest(request);
+  if (digest instanceof Response) return digest;
+
+  // The paid path counts tokens before spending, and surfaces a bad key as a
+  // clean JSON error rather than one buried inside the stream. The free path
+  // has no per-visitor cost to guard and is bounded by the provider's limits.
+  const client = apiKey ? new Anthropic({ apiKey, maxRetries: 1 }) : null;
+  if (client) {
+    try {
+      await preflight(client, digest);
+    } catch (error) {
+      return upstreamError(error) ?? json(502, 'preflight_failed', 'Could not start the run.');
+    }
   }
 
   const encoder = new TextEncoder();
@@ -136,41 +147,61 @@ export async function POST(request: Request): Promise<Response> {
         if (open) controller.enqueue(encoder.encode(encodeEvent(event)));
       };
 
-      try {
-        send({ type: 'status', message: 'Reading the conversation shape...' });
-
-        const result = await runInsightsAgent(client, input.digest, {
-          onDelta: (turn, text) => send({ type: 'delta', turn, text }),
-          onTool: (call) =>
-            send({ type: 'tool', name: call.name, input: call.input, isError: call.isError }),
-          onStatus: (message) => send({ type: 'status', message }),
-        });
-
-        const trace = buildTrace({
+      const traceFor = (result: ProviderResult, outcome: 'ok' | 'invalid_output') =>
+        buildTrace({
           requestId,
           startedAt,
           turns: result.turns,
           toolCalls: result.toolCalls,
           usage: result.usage,
-          outcome: result.insights ? 'ok' : 'invalid_output',
+          outcome,
           error: result.validationError,
           now: Date.now(),
+          provider: client ? 'anthropic' : 'groq',
+          shared: !client,
+          model: client ? MODEL : GROQ_PROVIDER.model,
+          effort: client ? EFFORT : 'n/a',
         });
 
+      try {
+        let result: ProviderResult;
+
+        if (client) {
+          send({ type: 'status', message: 'Reading the conversation shape...' });
+          result = await runInsightsAgent(client, digest, {
+            onDelta: (turn, text) => send({ type: 'delta', turn, text }),
+            onTool: (call) =>
+              send({ type: 'tool', name: call.name, input: call.input, isError: call.isError }),
+            onStatus: (message) => send({ type: 'status', message }),
+          });
+        } else {
+          // No streaming on this path, so the status line is the only progress
+          // signal the user gets. Say what is actually happening.
+          send({ type: 'status', message: `Reading on the shared free tier (${GROQ_PROVIDER.model})...` });
+          result = await runGroqInsights(digest);
+        }
+
         if (result.insights) {
+          const trace = traceFor(result, 'ok');
           send({ type: 'result', insights: result.insights });
           send({ type: 'trace', trace });
+          logTrace(trace);
         } else {
+          const trace = traceFor(result, 'invalid_output');
           send({
             type: 'error',
             code: 'invalid_output',
             message: `Model output failed validation: ${result.validationError ?? 'unknown'}`,
           });
+          logTrace(trace);
         }
-        logTrace(trace);
       } catch (error) {
         const message = describeRunFailure(error);
-        send({ type: 'error', code: 'run_failed', message });
+        send({
+          type: 'error',
+          code: error instanceof ProviderError ? error.code : 'run_failed',
+          message,
+        });
         logTrace(
           buildTrace({
             requestId,
@@ -181,6 +212,8 @@ export async function POST(request: Request): Promise<Response> {
             outcome: 'error',
             error: message,
             now: Date.now(),
+            provider: client ? 'anthropic' : 'groq',
+            shared: !client,
           }),
         );
       } finally {

@@ -20,6 +20,7 @@ const resolve = (alias: string, aliases: AliasMap | null) => aliases?.toName[ali
 
 function TraceReceipt({ trace }: { trace: NonNullable<InsightsState['trace']> }) {
   const rows: Array<[string, string]> = [
+    ['Provider', trace.shared ? `${trace.provider} (shared free tier)` : trace.provider],
     ['Model', trace.model],
     ['Effort', trace.effort],
     ['Prompt', trace.promptId],
@@ -29,14 +30,15 @@ function TraceReceipt({ trace }: { trace: NonNullable<InsightsState['trace']> })
     ['Output tokens', trace.usage.output.toLocaleString()],
     ['Cache reads', trace.usage.cacheRead.toLocaleString()],
     ['Duration', `${(trace.durationMs / 1000).toFixed(1)}s`],
-    ['Est. cost', `$${trace.estimatedCostUsd.toFixed(4)}`],
+    ['Est. cost', trace.shared ? 'free' : `$${trace.estimatedCostUsd.toFixed(4)}`],
   ];
 
   return (
     <details className="mt-6 rounded-lg border border-[var(--border)] bg-[var(--surface-2)] px-3.5 py-2.5">
       <summary className="cursor-pointer text-xs text-[var(--text-secondary)]">
         Run receipt &middot; {trace.usage.input.toLocaleString()} in /{' '}
-        {trace.usage.output.toLocaleString()} out &middot; ${trace.estimatedCostUsd.toFixed(4)}
+        {trace.usage.output.toLocaleString()} out &middot;{' '}
+        {trace.shared ? 'free tier' : `$${trace.estimatedCostUsd.toFixed(4)}`}
       </summary>
       <dl className="mt-3 grid grid-cols-2 gap-x-6 gap-y-1.5 text-xs sm:grid-cols-3">
         {rows.map(([label, value]) => (
@@ -55,13 +57,14 @@ export function InsightsPanel({
   aliases,
   onRun,
   onReset,
-  canRun,
+  hasKey,
 }: {
   state: InsightsState;
   aliases: AliasMap | null;
   onRun: () => void;
   onReset: () => void;
-  canRun: boolean;
+  /** Whether the visitor supplied their own Anthropic key. */
+  hasKey: boolean;
 }) {
   const data = state.insights ?? state.partial;
   const running = state.phase === 'running';
@@ -69,24 +72,36 @@ export function InsightsPanel({
   return (
     <Card
       title="AI reading"
-      subtitle="Claude reads the aggregate above and explains what it shows. Your key, your call."
+      subtitle={
+        hasKey
+          ? 'Claude Opus 5 on your key: streaming, and it queries the data through tools.'
+          : 'Runs on a shared free tier. Add your own key above for a better, unlimited reading.'
+      }
       action={
         state.phase === 'done' || state.phase === 'error' ? (
           <Button variant="ghost" onClick={onReset}>
             Clear
           </Button>
         ) : (
-          <Button onClick={onRun} disabled={!canRun || running}>
-            {running ? 'Reading...' : 'Generate'}
+          <Button onClick={onRun} disabled={running}>
+            {running ? 'Reading...' : hasKey ? 'Generate' : 'Generate free'}
           </Button>
         )
       }
     >
       {state.phase === 'idle' && !data && (
-        <p className="text-sm text-[var(--text-secondary)]">
-          Nothing has been sent anywhere yet. Generating sends the aggregate digest only &mdash;
-          counts, distributions and medians, with participants replaced by P1, P2, and so on.
-        </p>
+        <div className="flex flex-col gap-2 text-sm text-[var(--text-secondary)]">
+          <p>
+            Nothing has been sent anywhere yet. Generating sends the aggregate digest only
+            &mdash; counts, distributions and medians, with participants replaced by P1, P2, and
+            so on.
+          </p>
+          <p className="text-xs text-[var(--text-muted)]">
+            {hasKey
+              ? 'It will go to Anthropic on the key above.'
+              : 'Without a key it goes to Groq, which runs the shared free tier. Groq states it does not train on API data, but it is a third party either way \u2014 add your own key above to keep the run with Anthropic instead.'}
+          </p>
+        </div>
       )}
 
       {state.error && <Notice tone="warning">{state.error}</Notice>}

@@ -113,10 +113,33 @@ overview prompt ──▶ stream turn ──▶ stop_reason?
 - **The system prompt is cached** with a `cache_control` breakpoint. It is
   byte-stable across requests, which is what makes a cached prefix possible.
 
+### 6b. Providers (`src/lib/ai/providers/`)
+
+Two backends, selected by whether the request carries a bearer key.
+
+| | `anthropic` | `groq` |
+|---|---|---|
+| Billed to | The visitor | The project |
+| Model | Claude Opus 5 | `openai/gpt-oss-120b` |
+| Streaming | Yes | No |
+| Tools | Yes | No |
+| Digest delivery | Fetched by tool call | Inlined in the prompt |
+
+The free path is shaped entirely by one Groq constraint: structured outputs
+cannot be combined with tool use or streaming. Rather than degrade the good path
+to match, the free path is written as its own adapter — plain `fetch` against the
+OpenAI-compatible endpoint, no second SDK — that inlines the whole digest and
+returns once. Both return the same validated `Insights`, so the SSE contract, the
+UI and the trace stay provider-agnostic.
+
+Both share `SYSTEM` from the same prompt file. Two prompts that drifted apart
+would mean the eval suite grades one path and ships the other.
+
 ### 7. Route (`src/app/api/insights/route.ts`)
 
-Deliberately thin: read the bearer key, size-check the body, validate the digest,
-count tokens, adapt agent events onto SSE, log a trace.
+Deliberately thin: read the bearer key, pick a provider, size-check the body,
+validate the digest, count tokens (paid path only), adapt provider events onto
+SSE, log a trace.
 
 Errors are mapped to codes a person can act on (`invalid_api_key`,
 `token_budget_exceeded`, `rate_limited`) rather than a generic 500.

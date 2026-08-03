@@ -305,7 +305,7 @@ export default function Home() {
             aliases={aliases}
             onRun={() => void runInsights()}
             onReset={insights.reset}
-            canRun={apiKey.length > 0}
+            hasKey={apiKey.length > 0}
           />
         </div>
       )}

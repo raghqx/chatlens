@@ -27,9 +27,14 @@ transcript must never reach a server.** Everything else follows from that.
 - The AI layer is **opt-in**, and receives a **digest** — counts, distributions,
   medians — with participants replaced by `P1`, `P2`. Real names stay in the browser
   and are mapped back only at render time.
-- There is **no database, no server-side key, and no account**. You bring your own
-  Anthropic key; it lives in `sessionStorage` for that tab and is forwarded per
-  request.
+- There is **no database and no account**. Bring your own Anthropic key and it
+  lives in `sessionStorage` for that tab, forwarded per request and never stored.
+- Without a key, the reading runs on a **shared free tier** (Groq) on the
+  project's key, so the app is usable without signing up for anything. Groq
+  states it does not train on API data and does not retain it by default, but it
+  is a third party receiving your digest either way — which is why the UI names
+  the destination before you press the button, and why supplying your own key
+  keeps the run with Anthropic instead.
 
 The privacy claim is enforced by tests, not by a paragraph in a footer. The suite
 asserts that no real name, phone number, link path, or raw message body can appear
@@ -139,7 +144,21 @@ than no reading at all.
 
 ## What actually leaves your device
 
-Only when you click **Generate**, and only this:
+Nothing, until you click **Generate**. Then the anonymised digest goes to one of
+two places, and the panel tells you which before you click:
+
+| You supply | Goes to | Model | Streaming | Tools | Cost |
+|---|---|---|---|---|---|
+| Your Anthropic key | Anthropic | Claude Opus 5 | Yes | Yes | Yours, shown in the receipt |
+| Nothing | Groq (shared free tier) | `openai/gpt-oss-120b` | No | No | Free, ~50 runs/day shared |
+
+The free path is genuinely a different system, not a swapped base URL: Groq
+cannot combine structured outputs with tool use or streaming, so that path
+inlines the whole digest into a single non-streaming request. That is affordable
+only because the digest is ~600 tokens — which is also why the tool layer on the
+Anthropic path is an optimisation rather than a requirement.
+
+Either way, the payload is the same and contains only this:
 
 | Sent | Never sent |
 |---|---|
@@ -164,9 +183,12 @@ npm install
 npm run dev
 ```
 
-Open <http://localhost:3000>. No environment variables, no services, no key needed —
-the entire dashboard works offline. A key is required only for the AI reading, and
-you paste that into the app itself.
+Open <http://localhost:3000> and click **try it with a sample chat** to see the
+whole thing without exporting anything. The entire dashboard works offline with no
+key and no environment variables.
+
+For the AI reading you can either paste your own Anthropic key into the app, or
+put a free `GROQ_API_KEY` in `.env.local` to enable the shared free tier locally.
 
 ### Getting a chat out of WhatsApp
 
@@ -190,8 +212,12 @@ npm i -g vercel
 vercel
 ```
 
-That is the whole deployment. Next.js is auto-detected, there are no environment
-variables to set, and the only server-side surface is one route.
+Next.js is auto-detected and the only server-side surface is one route.
+
+**One optional environment variable.** Set `GROQ_API_KEY` in the Vercel dashboard
+(or `vercel env add GROQ_API_KEY`) to enable the shared free tier. Leave it unset
+and the app still works — it simply asks every visitor for their own Anthropic
+key instead. Get one free at [console.groq.com/keys](https://console.groq.com/keys).
 
 The insights route runs on the Node runtime with `maxDuration = 60`, which fits
 Vercel's Hobby tier; raise it on Pro if you increase the effort level. Because the
@@ -233,6 +259,7 @@ src/
     analytics/   single-pass metrics, stopwords, Unicode-aware text    (pure)
     digest/      redaction, pseudonymisation, the wire schema          (pure)
     ai/          agent loop, tools, schema, budget, trace, streaming
+      providers/ anthropic (BYOK, streaming, tools) and groq (shared free tier)
     zip.ts       dependency-free ZIP reader for iOS exports
   workers/       parse + analyse + digest, off the main thread
   components/    charts (hand-rolled SVG), dashboard, insights panel
@@ -258,9 +285,19 @@ it uploaded the entire chat to a server in order to draw a bar chart.
 private conversation to hold on your server is zero. It also makes the app free to
 run at any traffic level.
 
-**Why bring-your-own-key?** A public demo on my key is a bill waiting to happen, and
-rate-limiting it into uselessness is a worse demo. BYOK also puts the cost model in
-front of the user, which is why the run receipt exists.
+**Why two providers?** A public demo that demands an API key before it shows you
+anything is a demo nobody runs. A public demo on my own Anthropic key is a bill
+waiting to happen — measured against the real prompt, an Opus 5 run costs about
+$0.12, so one popular link is hundreds of dollars. The split resolves both: a
+free tier bounded by someone else's rate limits for people just looking, and
+bring-your-own-key for the real thing. BYOK also puts the cost model in front of
+the user, which is why the run receipt exists.
+
+**Why Groq for the free tier and not Gemini?** Google's Gemini free tier states
+that free-tier data may be used to improve their products. Wiring that in would
+make this README's central claim false. Groq's stated policy is no training on
+API data and no retention by default, account-wide rather than split by tier —
+which is the minimum bar for a tool that exists to argue about data handling.
 
 **Why no chart library?** Six chart types, hand-rolled in SVG, is less code than the
 config to make a library behave — and it keeps a privacy-first app free of
