@@ -78,14 +78,20 @@ in the digest — see [`src/lib/digest/digest.test.ts`](src/lib/digest/digest.te
   └─────────────┘    └──────────────┘            │   └────────┬─────────┘
                                                  │            │
                                                  │   ┌────────▼─────────┐
-                                                 │   │  agent loop      │
+                                                 │   │  route on the    │
+                                                 │   │  key's prefix    │
                                                  │   │  ├─ budget       │
-                                                 │   │  ├─ tools        │
                                                  │   │  ├─ schema       │
                                                  │   │  └─ trace        │
-                                                 │   └────────┬─────────┘
-                                                 │            ▼
-                                                 │     Claude Opus 5
+                                                 │   └──┬────────────┬──┘
+                                                 │      │ sk-ant-    │ gsk_ / none
+                                                 │  ┌───▼──────┐ ┌───▼──────┐
+                                                 │  │ agent    │ │ inline   │
+                                                 │  │ loop +   │ │ digest,  │
+                                                 │  │ tools    │ │ one shot │
+                                                 │  └───┬──────┘ └───┬──────┘
+                                                 │      ▼            ▼
+                                                 │  Claude Opus 5   Groq
 ```
 
 Full write-up: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
