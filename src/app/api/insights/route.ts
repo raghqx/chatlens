@@ -3,6 +3,7 @@ import { preflight, runInsightsAgent } from '@/lib/ai/agent';
 import { assertBodySize, BudgetError } from '@/lib/ai/budget';
 import { encodeEvent, type InsightsEvent } from '@/lib/ai/events';
 import { EFFORT, emptyUsage, MODEL } from '@/lib/ai/model';
+import { detectKeyProvider } from '@/lib/ai/providers/detect';
 import { GROQ_PROVIDER, isGroqConfigured, runGroqInsights } from '@/lib/ai/providers/groq';
 import { ProviderError, type ProviderResult } from '@/lib/ai/providers/types';
 import { buildTrace, logTrace, newRequestId } from '@/lib/ai/trace';
@@ -11,16 +12,15 @@ import { digestSchema, type Digest } from '@/lib/digest';
 /**
  * Insight generation, over one of two backends.
  *
- * **With a key** (`Authorization: Bearer sk-ant-...`) the run goes to Claude
- * Opus 5 on the visitor's own key: streaming, tool calling, nothing stored. The
- * key is used to build a client for that request only and is never logged,
- * persisted, or attached to the trace.
+ * The backend is chosen from the key's own prefix, so the user never has to
+ * tell us something the key already says:
  *
- * **Without a key** the run goes to a shared free tier on the project's Groq
- * key. That path is genuinely different — Groq cannot combine structured
- * outputs with tools or streaming — so it inlines the digest into one
- * non-streaming request. It is rate-limited by the provider and shared by every
- * visitor, so it is best-effort by design.
+ *  - `sk-ant-...` — Claude Opus 5 on the visitor's key: streaming, tool calling.
+ *  - `gsk_...`    — Groq on the visitor's key, off the shared quota.
+ *  - no key       — Groq on the project's key, the shared free tier.
+ *
+ * A supplied key is used to build a client for that request only and is never
+ * logged, persisted, or attached to the trace.
  *
  * Either way the only thing sent is the anonymised digest, and the UI states
  * which provider will receive it before anything leaves the browser.
@@ -114,15 +114,26 @@ export async function POST(request: Request): Promise<Response> {
   const startedAt = Date.now();
 
   const apiKey = readBearer(request.headers.get('authorization'));
-  const useFreeTier = !apiKey;
+  const keyProvider = detectKeyProvider(apiKey);
 
-  if (useFreeTier && !isGroqConfigured()) {
+  if (keyProvider === 'unknown') {
+    return json(
+      400,
+      'unrecognised_key',
+      'That key is not an Anthropic key (sk-ant-...) or a Groq key (gsk_...). Clear the field to use the free tier.',
+    );
+  }
+  if (keyProvider === 'none' && !isGroqConfigured()) {
     return json(
       401,
       'missing_api_key',
-      'This deployment has no free tier configured. Add your Anthropic API key above; it is sent only with this request and never stored.',
+      'This deployment has no free tier configured. Paste an Anthropic or Groq API key above; it is sent only with this request and never stored.',
     );
   }
+
+  const useAnthropic = keyProvider === 'anthropic';
+  /** True only when the run is billed to the project rather than the visitor. */
+  const shared = keyProvider === 'none';
 
   const digest = await readDigest(request);
   if (digest instanceof Response) return digest;
@@ -130,7 +141,7 @@ export async function POST(request: Request): Promise<Response> {
   // The paid path counts tokens before spending, and surfaces a bad key as a
   // clean JSON error rather than one buried inside the stream. The free path
   // has no per-visitor cost to guard and is bounded by the provider's limits.
-  const client = apiKey ? new Anthropic({ apiKey, maxRetries: 1 }) : null;
+  const client = useAnthropic && apiKey ? new Anthropic({ apiKey, maxRetries: 1 }) : null;
   if (client) {
     try {
       await preflight(client, digest);
@@ -158,7 +169,7 @@ export async function POST(request: Request): Promise<Response> {
           error: result.validationError,
           now: Date.now(),
           provider: client ? 'anthropic' : 'groq',
-          shared: !client,
+          shared,
           model: client ? MODEL : GROQ_PROVIDER.model,
           effort: client ? EFFORT : 'n/a',
         });
@@ -177,8 +188,13 @@ export async function POST(request: Request): Promise<Response> {
         } else {
           // No streaming on this path, so the status line is the only progress
           // signal the user gets. Say what is actually happening.
-          send({ type: 'status', message: `Reading on the shared free tier (${GROQ_PROVIDER.model})...` });
-          result = await runGroqInsights(digest);
+          send({
+            type: 'status',
+            message: shared
+              ? `Reading on the shared free tier (${GROQ_PROVIDER.model})...`
+              : `Reading on your Groq key (${GROQ_PROVIDER.model})...`,
+          });
+          result = await runGroqInsights(digest, shared ? undefined : (apiKey as string));
         }
 
         if (result.insights) {
@@ -213,7 +229,7 @@ export async function POST(request: Request): Promise<Response> {
             error: message,
             now: Date.now(),
             provider: client ? 'anthropic' : 'groq',
-            shared: !client,
+            shared,
           }),
         );
       } finally {

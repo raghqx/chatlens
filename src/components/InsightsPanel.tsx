@@ -1,5 +1,6 @@
 'use client';
 
+import { detectKeyProvider } from '@/lib/ai/providers/detect';
 import type { AliasMap } from '@/lib/digest';
 import type { InsightsState } from '@/lib/ai/use-insights';
 import { Button, Card, Notice } from './ui';
@@ -57,34 +58,40 @@ export function InsightsPanel({
   aliases,
   onRun,
   onReset,
-  hasKey,
+  apiKey,
 }: {
   state: InsightsState;
   aliases: AliasMap | null;
   onRun: () => void;
   onReset: () => void;
-  /** Whether the visitor supplied their own Anthropic key. */
-  hasKey: boolean;
+  /** Raw key from the field; the provider is derived from its prefix. */
+  apiKey: string;
 }) {
   const data = state.insights ?? state.partial;
   const running = state.phase === 'running';
+  const provider = detectKeyProvider(apiKey);
+
+  const subtitle = {
+    anthropic: 'Claude Opus 5 on your key: streaming, and it queries the data through tools.',
+    groq: 'Groq on your key, so you are not sharing the free tier limits.',
+    none: 'Runs on the shared free tier. Paste a key above to get your own quota.',
+    unknown: 'That key is not recognised. Fix it above, or clear the field to use the free tier.',
+  }[provider];
+
+  const buttonLabel = provider === 'none' ? 'Generate free' : 'Generate';
 
   return (
     <Card
       title="AI reading"
-      subtitle={
-        hasKey
-          ? 'Claude Opus 5 on your key: streaming, and it queries the data through tools.'
-          : 'Runs on a shared free tier. Add your own key above for a better, unlimited reading.'
-      }
+      subtitle={subtitle}
       action={
         state.phase === 'done' || state.phase === 'error' ? (
           <Button variant="ghost" onClick={onReset}>
             Clear
           </Button>
         ) : (
-          <Button onClick={onRun} disabled={running}>
-            {running ? 'Reading...' : hasKey ? 'Generate' : 'Generate free'}
+          <Button onClick={onRun} disabled={running || provider === 'unknown'}>
+            {running ? 'Reading...' : buttonLabel}
           </Button>
         )
       }
@@ -97,9 +104,9 @@ export function InsightsPanel({
             so on.
           </p>
           <p className="text-xs text-[var(--text-muted)]">
-            {hasKey
-              ? 'It will go to Anthropic on the key above.'
-              : 'Without a key it goes to Groq, which runs the shared free tier. Groq states it does not train on API data, but it is a third party either way \u2014 add your own key above to keep the run with Anthropic instead.'}
+            {provider === 'anthropic'
+              ? 'It will go to Anthropic, on the key above.'
+              : 'It will go to Groq. Groq states it does not train on API data and does not retain it by default, but it is a third party receiving your digest either way.'}
           </p>
         </div>
       )}

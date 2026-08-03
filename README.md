@@ -27,14 +27,16 @@ transcript must never reach a server.** Everything else follows from that.
 - The AI layer is **opt-in**, and receives a **digest** — counts, distributions,
   medians — with participants replaced by `P1`, `P2`. Real names stay in the browser
   and are mapped back only at render time.
-- There is **no database and no account**. Bring your own Anthropic key and it
-  lives in `sessionStorage` for that tab, forwarded per request and never stored.
-- Without a key, the reading runs on a **shared free tier** (Groq) on the
-  project's key, so the app is usable without signing up for anything. Groq
-  states it does not train on API data and does not retain it by default, but it
-  is a third party receiving your digest either way — which is why the UI names
-  the destination before you press the button, and why supplying your own key
-  keeps the run with Anthropic instead.
+- There is **no database and no account**. A key you paste lives in
+  `sessionStorage` for that tab, is forwarded per request, and is never stored.
+- The key field takes **either an Anthropic or a Groq key**, and the backend is
+  chosen from the key's own prefix — you are never asked to tell the app
+  something the key already says.
+- With **no key at all**, the reading runs on a shared free tier so the app is
+  usable without signing up for anything. Groq states it does not train on API
+  data and does not retain it by default, but it is a third party receiving your
+  digest either way — which is why the panel names the destination before you
+  press the button.
 
 The privacy claim is enforced by tests, not by a paragraph in a footer. The suite
 asserts that no real name, phone number, link path, or raw message body can appear
@@ -147,10 +149,11 @@ than no reading at all.
 Nothing, until you click **Generate**. Then the anonymised digest goes to one of
 two places, and the panel tells you which before you click:
 
-| You supply | Goes to | Model | Streaming | Tools | Cost |
+| You paste | Goes to | Model | Streaming | Tools | Cost |
 |---|---|---|---|---|---|
-| Your Anthropic key | Anthropic | Claude Opus 5 | Yes | Yes | Yours, shown in the receipt |
-| Nothing | Groq (shared free tier) | `openai/gpt-oss-120b` | No | No | Free, ~50 runs/day shared |
+| `sk-ant-...` | Anthropic | Claude Opus 5 | Yes | Yes | Yours, shown in the receipt |
+| `gsk_...` | Groq, on your key | `openai/gpt-oss-120b` | No | No | Free, your own quota |
+| nothing | Groq, shared free tier | `openai/gpt-oss-120b` | No | No | Free, ~50 runs/day shared |
 
 The free path is genuinely a different system, not a swapped base URL: Groq
 cannot combine structured outputs with tool use or streaming, so that path
@@ -187,8 +190,11 @@ Open <http://localhost:3000> and click **try it with a sample chat** to see the
 whole thing without exporting anything. The entire dashboard works offline with no
 key and no environment variables.
 
-For the AI reading you can either paste your own Anthropic key into the app, or
-put a free `GROQ_API_KEY` in `.env.local` to enable the shared free tier locally.
+For the AI reading, paste a key into the app — a
+[free Groq key](https://console.groq.com/keys) or an
+[Anthropic key](https://console.anthropic.com/settings/keys); it routes on the
+prefix. Or put a `GROQ_API_KEY` in `.env.local` to serve keyless visitors from a
+shared free tier.
 
 ### Getting a chat out of WhatsApp
 
@@ -259,7 +265,7 @@ src/
     analytics/   single-pass metrics, stopwords, Unicode-aware text    (pure)
     digest/      redaction, pseudonymisation, the wire schema          (pure)
     ai/          agent loop, tools, schema, budget, trace, streaming
-      providers/ anthropic (BYOK, streaming, tools) and groq (shared free tier)
+      providers/ anthropic and groq adapters, plus prefix-based key routing
     zip.ts       dependency-free ZIP reader for iOS exports
   workers/       parse + analyse + digest, off the main thread
   components/    charts (hand-rolled SVG), dashboard, insights panel

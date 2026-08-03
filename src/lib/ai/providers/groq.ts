@@ -48,6 +48,7 @@ export const GROQ_PROVIDER: ProviderInfo = {
   shared: true,
 };
 
+/** Whether this deployment can serve a keyless visitor from the shared tier. */
 export function isGroqConfigured(): boolean {
   return Boolean(process.env.GROQ_API_KEY);
 }
@@ -59,23 +60,27 @@ interface ChatCompletion {
 }
 
 /** Turn a non-2xx response into something the UI can explain to a person. */
-function describeFailure(status: number, body: ChatCompletion): ProviderError {
+function describeFailure(status: number, body: ChatCompletion, ownKey: boolean): ProviderError {
   const detail = body.error?.message ?? `Groq returned ${status}.`;
 
   if (status === 429) {
     return new ProviderError(
-      'The shared free tier has hit its rate limit. Add your own Anthropic key above for an unlimited, higher-quality reading, or try again in a minute.',
+      ownKey
+        ? 'Groq rate-limited your key. Wait a minute and try again.'
+        : 'The shared free tier has hit its rate limit. Paste your own Groq or Anthropic key above to skip the queue, or try again in a minute.',
       429,
       'free_tier_exhausted',
     );
   }
   if (status === 401 || status === 403) {
-    // The visitor cannot fix this; it is the project's key. Say so plainly.
-    return new ProviderError(
-      'The shared free tier is misconfigured. Add your own Anthropic key above to run a reading.',
-      503,
-      'free_tier_unavailable',
-    );
+    return ownKey
+      ? new ProviderError('Groq rejected that API key.', 401, 'invalid_api_key')
+      : // The visitor cannot fix the project's key. Say so plainly.
+        new ProviderError(
+          'The shared free tier is misconfigured. Paste your own Groq or Anthropic key above to run a reading.',
+          503,
+          'free_tier_unavailable',
+        );
   }
   if (status >= 500) {
     return new ProviderError('The free tier provider is having problems. Try again shortly.', 502, 'free_tier_upstream');
@@ -89,11 +94,15 @@ function describeFailure(status: number, body: ChatCompletion): ProviderError {
  * Returns the same shape as the Anthropic path so the route, the SSE contract
  * and the UI stay provider-agnostic.
  */
-export async function runGroqInsights(digest: Digest): Promise<ProviderResult> {
-  const apiKey = process.env.GROQ_API_KEY;
+export async function runGroqInsights(
+  digest: Digest,
+  /** The visitor's own Groq key. Falls back to the project's shared free tier. */
+  visitorKey?: string,
+): Promise<ProviderResult> {
+  const apiKey = visitorKey ?? process.env.GROQ_API_KEY;
   if (!apiKey) {
     throw new ProviderError(
-      'No free tier is configured on this deployment. Add your own Anthropic key above.',
+      'This deployment has no free tier configured. Paste an Anthropic or Groq API key above to run a reading.',
       503,
       'free_tier_unavailable',
     );
@@ -125,7 +134,7 @@ export async function runGroqInsights(digest: Digest): Promise<ProviderResult> {
   });
 
   const body = (await response.json().catch(() => ({}))) as ChatCompletion;
-  if (!response.ok) throw describeFailure(response.status, body);
+  if (!response.ok) throw describeFailure(response.status, body, Boolean(visitorKey));
 
   const usage = {
     ...emptyUsage(),
