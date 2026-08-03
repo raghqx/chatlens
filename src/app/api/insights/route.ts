@@ -4,7 +4,7 @@ import { assertBodySize, BudgetError } from '@/lib/ai/budget';
 import { encodeEvent, type InsightsEvent } from '@/lib/ai/events';
 import { EFFORT, emptyUsage, MODEL } from '@/lib/ai/model';
 import { detectKeyProvider } from '@/lib/ai/providers/detect';
-import { GROQ_PROVIDER, isGroqConfigured, runGroqInsights } from '@/lib/ai/providers/groq';
+import { GROQ_MODEL, isGroqConfigured, runGroqInsights } from '@/lib/ai/providers/groq';
 import { ProviderError, type ProviderResult } from '@/lib/ai/providers/types';
 import { buildTrace, logTrace, newRequestId } from '@/lib/ai/trace';
 import { digestSchema, type Digest } from '@/lib/digest';
@@ -170,7 +170,7 @@ export async function POST(request: Request): Promise<Response> {
           now: Date.now(),
           provider: client ? 'anthropic' : 'groq',
           shared,
-          model: client ? MODEL : GROQ_PROVIDER.model,
+          model: client ? MODEL : GROQ_MODEL,
           effort: client ? EFFORT : 'n/a',
         });
 
@@ -191,8 +191,8 @@ export async function POST(request: Request): Promise<Response> {
           send({
             type: 'status',
             message: shared
-              ? `Reading on the shared free tier (${GROQ_PROVIDER.model})...`
-              : `Reading on your Groq key (${GROQ_PROVIDER.model})...`,
+              ? `Reading on the shared free tier (${GROQ_MODEL})...`
+              : `Reading on your Groq key (${GROQ_MODEL})...`,
           });
           result = await runGroqInsights(digest, shared ? undefined : (apiKey as string));
         }

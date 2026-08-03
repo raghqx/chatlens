@@ -153,7 +153,12 @@ two places, and the panel tells you which before you click:
 |---|---|---|---|---|---|
 | `sk-ant-...` | Anthropic | Claude Opus 5 | Yes | Yes | Yours, shown in the receipt |
 | `gsk_...` | Groq, on your key | `openai/gpt-oss-120b` | No | No | Free, your own quota |
-| nothing | Groq, shared free tier | `openai/gpt-oss-120b` | No | No | Free, ~50 runs/day shared |
+| nothing | Groq, shared free tier | `openai/gpt-oss-120b` | No | No | Free, shared quota |
+
+Groq's free tier allows 8,000 tokens/minute and 200,000/day. A run costs about
+3,300 tokens, so the daily ceiling is roughly 50 readings — but the per-minute
+cap bites first, allowing about two back-to-back runs before a 429. The app
+reports that as a readable message rather than a failure.
 
 The free path is genuinely a different system, not a swapped base URL: Groq
 cannot combine structured outputs with tool use or streaming, so that path

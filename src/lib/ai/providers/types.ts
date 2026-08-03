@@ -20,19 +20,6 @@ import type { ToolInvocation } from '../trace';
 
 export type ProviderId = 'anthropic' | 'groq';
 
-export interface ProviderInfo {
-  id: ProviderId;
-  /** Shown to the user before anything is sent. */
-  label: string;
-  model: string;
-  /** Whether output arrives incrementally. */
-  streams: boolean;
-  /** Whether the model queries the digest through tools rather than being handed it. */
-  usesTools: boolean;
-  /** True when the run is billed to the project rather than the visitor. */
-  shared: boolean;
-}
-
 export interface ProviderResult {
   insights: Insights | null;
   raw: string;

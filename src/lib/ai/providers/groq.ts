@@ -2,10 +2,11 @@ import type { Digest } from '@/lib/digest';
 import { emptyUsage, type Pricing } from '../model';
 import { buildInlineContext, SYSTEM } from '../prompts/insights.v1';
 import { INSIGHTS_JSON_SCHEMA, insightsSchema } from '../schema';
-import { ProviderError, type ProviderInfo, type ProviderResult } from './types';
+import { ProviderError, type ProviderResult } from './types';
 
 /**
- * Shared free tier, backed by Groq.
+ * The Groq path, used two ways: a visitor's own `gsk_` key, or - when no key is
+ * supplied - the project's key as a shared free tier.
  *
  * Deliberately not the Anthropic SDK — this is a different provider speaking
  * the OpenAI-compatible chat-completions protocol, reached with plain `fetch`
@@ -24,15 +25,15 @@ import { ProviderError, type ProviderInfo, type ProviderResult } from './types';
  *     the same compiled schema is reused unchanged.
  *
  * Free-tier limits at time of writing: 30 requests/min, 1,000/day, 8,000
- * tokens/min, 200,000 tokens/day, shared across every visitor. A run costs
- * roughly 4,000 tokens, so the ceiling is about 50 readings a day before the
- * app falls back to asking for a key.
+ * tokens/min, 200,000 tokens/day. A run costs roughly 3,300 tokens, so the
+ * daily ceiling is about 50 readings - but the per-minute cap bites first,
+ * allowing only about two back-to-back runs before a 429.
  */
 
 const ENDPOINT = 'https://api.groq.com/openai/v1/chat/completions';
 
 /** One of only two Groq models supporting `strict` constrained decoding. */
-const MODEL = 'openai/gpt-oss-120b';
+export const GROQ_MODEL = 'openai/gpt-oss-120b';
 
 const MAX_COMPLETION_TOKENS = 6_000;
 
@@ -51,15 +52,6 @@ export const GROQ_PRICING: Pricing = {
   outputPerMTok: 0.6,
   cacheReadPerMTok: 0,
   cacheWritePerMTok: 0,
-};
-
-export const GROQ_PROVIDER: ProviderInfo = {
-  id: 'groq',
-  label: 'Groq free tier',
-  model: MODEL,
-  streams: false,
-  usesTools: false,
-  shared: true,
 };
 
 /** Whether this deployment can serve a keyless visitor from the shared tier. */
@@ -130,7 +122,7 @@ export async function runGroqInsights(
     },
     signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
     body: JSON.stringify({
-      model: MODEL,
+      model: GROQ_MODEL,
       max_completion_tokens: MAX_COMPLETION_TOKENS,
       messages: [
         { role: 'system', content: SYSTEM },
